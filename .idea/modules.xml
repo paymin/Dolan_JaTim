@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Dolan_JaTim.iml" filepath="$PROJECT_DIR$/Dolan_JaTim.iml" />
       <module fileurl="file://$PROJECT_DIR$/Main.prproj.iml" filepath="$PROJECT_DIR$/Main.prproj.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

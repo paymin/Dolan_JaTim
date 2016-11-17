@@ -12,11 +12,23 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     public static final int REQUEST_CODE = 123;
+    Button coba;
+    TextView cobatampil;
+
+    DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
+    DatabaseReference mConditionRef = mRootRef.child("tb_kota/Kabupaten Pacitan/deskripsi");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,13 +55,29 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        coba = (Button) findViewById(R.id.button2);
+        cobatampil = (TextView) findViewById(R.id.textView2);
     }
 
-    private void goContent() {
-        Intent intent = new Intent(MainActivity.this, DetailActivity.class);
-        startActivity(intent);
-    }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        mConditionRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                String text = dataSnapshot.getValue(String.class);
+                cobatampil.setText(text);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
 
     @Override
     public void onBackPressed() {

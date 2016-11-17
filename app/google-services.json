@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "193217205546",
+    "firebase_url": "https://dolan-jatim-cc1f1.firebaseio.com",
+    "project_id": "dolan-jatim-cc1f1",
+    "storage_bucket": "dolan-jatim-cc1f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193217205546:android:7b25a46af4765ee1",
+        "android_client_info": {
+          "package_name": "id.sch.smktelkom_mlg.project.xirpl105142332.dolanjatim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193217205546-8gst32n4u5haqd40rol0v2fuqdgq6hi7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.sch.smktelkom_mlg.project.xirpl105142332.dolanjatim",
+            "certificate_hash": "160775B847B5BEB80683786A56DD116346611AB8"
+          }
+        },
+        {
+          "client_id": "193217205546-qsdr30gpcophjdqvkf0skhl70crqabrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcp_WsYtM959evVtDBxRA41ki1-vkY2sY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193217205546-qsdr30gpcophjdqvkf0skhl70crqabrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

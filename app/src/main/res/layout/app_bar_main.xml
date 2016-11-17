@@ -7,6 +7,7 @@
     android:fitsSystemWindows="true"
     tools:context="id.sch.smktelkom_mlg.project.xirpl105142332.dolanjatim.MainActivity">
 
+
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,6 +22,9 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main" />
+    <include
+        layout="@layout/content_main"
+        android:layout_weight="1" />
 
 </android.support.design.widget.CoordinatorLayout>
+
