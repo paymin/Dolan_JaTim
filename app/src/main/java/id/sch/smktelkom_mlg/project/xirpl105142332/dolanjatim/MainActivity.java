@@ -13,9 +13,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.firebase.ui.database.FirebaseListAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -57,6 +59,9 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        ImageView imageView = (ImageView) findViewById(R.id.gambar);
+
+        Glide.with(this).load("https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/DSC_0243a.jpg?alt=media&token=191b00d3-6a52-49a6-86b5-5c27ac650e4a").into(imageView);
 
     }
 
