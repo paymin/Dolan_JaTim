@@ -49,6 +49,12 @@ public class MainActivity extends AppCompatActivity
                 startActivityForResult(new Intent(MainActivity.this, ListKotaActivity.class), REQUEST_CODE);
             }
         });
+        findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivityForResult(new Intent(MainActivity.this, DaerahActivity.class), REQUEST_CODE);
+            }
+        });
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

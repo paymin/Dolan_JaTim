@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">Dolan JaTim</string>
+    <string name="app_name">Dolan Jatim</string>
+    <string name="ajg">AJG</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_tes">TesActivity</string>
+
 </resources>
