@@ -8,27 +8,28 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
 
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
+import com.firebase.ui.database.FirebaseListAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     public static final int REQUEST_CODE = 123;
-    Button coba;
-    TextView cobatampil;
 
-    DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
-    DatabaseReference mConditionRef = mRootRef.child("tb_kota/Kabupaten Pacitan/deskripsi");
+    TextView tv;
+    ListView lv;
+    DatabaseReference Ref = FirebaseDatabase.getInstance().getReference();
+    DatabaseReference Refa = Ref.child("tb_list/nam_kota");
+    //ArrayList<String> Refa = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
 
-        Button bt = (Button) findViewById(R.id.button);
+        Button buto = (Button) findViewById(R.id.button);
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -56,27 +57,23 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        coba = (Button) findViewById(R.id.button2);
-        cobatampil = (TextView) findViewById(R.id.textView2);
-    }
 
+    }
 
     @Override
     protected void onStart() {
         super.onStart();
+        ListView lv = (ListView) findViewById(R.id.list_view_aw);
 
-        mConditionRef.addValueEventListener(new ValueEventListener() {
+        FirebaseListAdapter<String> mAdapter = new FirebaseListAdapter<String>(this, String.class, android.R.layout.simple_list_item_1, Refa) {
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                String text = dataSnapshot.getValue(String.class);
-                cobatampil.setText(text);
+            protected void populateView(View view, String s, int i) {
+                TextView tes = (TextView) view.findViewById(android.R.id.text1);
+                tes.setText(s);
+                Log.d("ASOE", s);
             }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
+        };
+        lv.setAdapter(mAdapter);
     }
 
     @Override
