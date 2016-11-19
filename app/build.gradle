@@ -32,9 +32,6 @@ dependencies {
     compile 'com.firebaseui:firebase-ui-database:1.0.0'
     compile 'com.firebaseui:firebase-ui-storage:1.0.0'
     compile 'junit:junit:4.12'
-    compile 'com.github.gigamole.slideimageview:library:1.1.4'
-    compile 'com.github.bumptech.glide:glide:3.7.0'
-    compile 'com.android.support:support-v4:24.1.0'
 }
 
 

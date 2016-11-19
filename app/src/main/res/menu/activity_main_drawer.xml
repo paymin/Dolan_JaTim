@@ -1,32 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
+    <group android:checkableBehavior="all">
         <item
             android:id="@+id/navPantai"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/pantai"
             android:title="Pantai" />
         <item
             android:id="@+id/navGunung"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/gunung"
             android:title="Gunung" />
         <item
             android:id="@+id/navDanau"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/danau"
             android:title="Danau" />
         <item
-            android:id="@+id/navBendungan"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Bendungan" />
-
-        <item
             android:id="@+id/navAirTerjun"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/airterjun"
             android:title="Air Terjun" />
-
-        <item
-            android:id="@+id/navTanjung"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Tanjung" />
     </group>
 </menu>

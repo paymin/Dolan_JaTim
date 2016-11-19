@@ -25,7 +25,8 @@
             android:label="@string/title_activity_tes"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".CategoryActivity" />
-        <activity android:name=".DaerahActivity"></activity>
+        <activity android:name=".DaerahActivity" />
+        <activity android:name=".ListKotaActivity"></activity>
     </application>
 
 </manifest>

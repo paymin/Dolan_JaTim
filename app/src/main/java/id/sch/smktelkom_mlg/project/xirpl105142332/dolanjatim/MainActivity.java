@@ -41,11 +41,12 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
 
+
         Button buto = (Button) findViewById(R.id.button);
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivityForResult(new Intent(MainActivity.this, TesActivity.class), REQUEST_CODE);
+                startActivityForResult(new Intent(MainActivity.this, ListKotaActivity.class), REQUEST_CODE);
             }
         });
 
@@ -119,11 +120,7 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.navTanjung) {
-            // Handle the camera action
-        } else if (id == R.id.navAirTerjun) {
-
-        } else if (id == R.id.navBendungan) {
+        if (id == R.id.navAirTerjun) {
 
         } else if (id == R.id.navDanau) {
 
