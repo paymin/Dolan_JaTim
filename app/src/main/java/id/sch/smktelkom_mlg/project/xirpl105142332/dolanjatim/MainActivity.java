@@ -1,5 +1,6 @@
 package id.sch.smktelkom_mlg.project.xirpl105142332.dolanjatim;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -7,6 +8,8 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,8 +20,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.squareup.picasso.Picasso;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -27,9 +32,11 @@ public class MainActivity extends AppCompatActivity
 
     TextView tv;
     ListView lv;
-    DatabaseReference Ref = FirebaseDatabase.getInstance().getReference();
-    DatabaseReference Refa = Ref.child("tb_list/nam_kota");
+    DatabaseReference Ref = FirebaseDatabase.getInstance().getReference().child("coba");
     //ArrayList<String> Refa = new ArrayList<>();
+    private String mPost_key = null;
+    private RecyclerView mBlogListw;
+    private DatabaseReference mDatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +45,13 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        mDatabase = FirebaseDatabase.getInstance().getReference().child("tb_kota");
+        //mPost_key = getIntent().getExtras().getString("blog_id");
 
+
+        mBlogListw = (RecyclerView) findViewById(R.id.recyclerviewmenu);
+        mBlogListw.setHasFixedSize(true);
+        mBlogListw.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL, false));
 
         Button buto = (Button) findViewById(R.id.button);
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
@@ -68,6 +81,33 @@ public class MainActivity extends AppCompatActivity
 
         Glide.with(this).load("https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/DSC_0243a.jpg?alt=media&token=191b00d3-6a52-49a6-86b5-5c27ac650e4a").into(imageView);
 
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        FirebaseRecyclerAdapter<Blog, BlogViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Blog, BlogViewHolder>(
+                Blog.class, R.layout.item_list_menu, BlogViewHolder.class, Ref) {
+            @Override
+            protected void populateViewHolder(BlogViewHolder viewHolder, Blog model, int position) {
+
+                final String post_key = getRef(position).getKey();
+
+                viewHolder.setTitle(model.getJudul());
+                viewHolder.setImage(getApplicationContext(), model.getLogo());
+
+                viewHolder.mview.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent singleBlogIntent = new Intent(MainActivity.this, MainActivity.class);
+                        singleBlogIntent.putExtra("blog_id", post_key);
+                        startActivity(singleBlogIntent);
+                    }
+                });
+            }
+        };
+        mBlogListw.setAdapter(firebaseRecyclerAdapter);
     }
 
     @Override
@@ -123,5 +163,25 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public static class BlogViewHolder extends RecyclerView.ViewHolder {
+        View mview;
+
+        public BlogViewHolder(View itemView) {
+            super(itemView);
+            mview = itemView;
+        }
+
+        public void setTitle(String title) {
+            TextView post_title = (TextView) mview.findViewById(R.id.textViewJudulmenu);
+            post_title.setText(title);
+        }
+
+        public void setImage(Context ctx, String image) {
+            ImageView post_image = (ImageView) mview.findViewById(R.id.imageViewmenu);
+            Picasso.with(ctx).load(image).into(post_image);
+        }
+
     }
 }

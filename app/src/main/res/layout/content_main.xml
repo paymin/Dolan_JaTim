@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl105142332.dolanjatim.MainActivity">
+    tools:context="id.sch.smktelkom_mlg.project.xirpl105142332.dolanjatim.MainActivity"
+    tools:showIn="@layout/activity_main">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,6 +37,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button" />
+
+        <include
+            layout="@layout/content_main_menu"
+            android:layout_weight="1" />
 
     </LinearLayout>
 
