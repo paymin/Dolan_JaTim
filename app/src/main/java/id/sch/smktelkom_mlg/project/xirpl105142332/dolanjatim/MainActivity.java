@@ -49,12 +49,6 @@ public class MainActivity extends AppCompatActivity
                 startActivityForResult(new Intent(MainActivity.this, ListKotaActivity.class), REQUEST_CODE);
             }
         });
-        findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivityForResult(new Intent(MainActivity.this, DaerahActivity.class), REQUEST_CODE);
-            }
-        });
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -133,6 +127,8 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.navGunung) {
 
         } else if (id == R.id.navPantai) {
+
+        } else if (id == R.id.navHome) {
 
         }
 
