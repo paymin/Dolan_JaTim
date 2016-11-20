@@ -8,7 +8,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -18,7 +17,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.firebase.ui.database.FirebaseListAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -49,6 +47,12 @@ public class MainActivity extends AppCompatActivity
                 startActivityForResult(new Intent(MainActivity.this, ListKotaActivity.class), REQUEST_CODE);
             }
         });
+        findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivityForResult(new Intent(MainActivity.this, WisataActivity.class), REQUEST_CODE);
+            }
+        });
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -64,22 +68,6 @@ public class MainActivity extends AppCompatActivity
 
         Glide.with(this).load("https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/DSC_0243a.jpg?alt=media&token=191b00d3-6a52-49a6-86b5-5c27ac650e4a").into(imageView);
 
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        ListView lv = (ListView) findViewById(R.id.list_view_aw);
-
-        FirebaseListAdapter<String> mAdapter = new FirebaseListAdapter<String>(this, String.class, android.R.layout.simple_list_item_1, Refa) {
-            @Override
-            protected void populateView(View view, String s, int i) {
-                TextView tes = (TextView) view.findViewById(android.R.id.text1);
-                tes.setText(s);
-                Log.d("ASOE", s);
-            }
-        };
-        lv.setAdapter(mAdapter);
     }
 
     @Override
