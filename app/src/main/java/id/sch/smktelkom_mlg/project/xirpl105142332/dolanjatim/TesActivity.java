@@ -104,7 +104,7 @@ public class TesActivity extends AppCompatActivity {
                 viewHolder.mview.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent singleBlogIntent = new Intent(TesActivity.this, MainActivity.class);
+                        Intent singleBlogIntent = new Intent(TesActivity.this, DetailWisataActivity.class);
                         singleBlogIntent.putExtra("blog_id", post_key);
                         startActivity(singleBlogIntent);
                     }

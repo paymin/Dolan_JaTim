@@ -9,9 +9,9 @@ public class DaerahActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_daerah);
+        setContentView(R.layout.activity_wisata);
 
-        String post_key = getIntent().getExtras().getString("blog_id");
+        String post_key = getIntent().getExtras().getString("wisata_id");
 
         Toast.makeText(DaerahActivity.this, post_key, Toast.LENGTH_SHORT).show();
     }

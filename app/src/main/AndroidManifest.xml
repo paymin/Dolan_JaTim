@@ -27,7 +27,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".CategoryActivity" />
         <activity android:name=".DaerahActivity" />
-        <activity android:name=".ListKotaActivity"></activity>
+        <activity android:name=".ListKotaActivity" />
+        <activity android:name=".DetailWisataActivity"></activity>
     </application>
 
 </manifest>

@@ -2,8 +2,9 @@ package id.sch.smktelkom_mlg.project.xirpl105142332.dolanjatim;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -15,33 +16,39 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
-public class WisataActivity extends AppCompatActivity {
+public class DetailWisataActivity extends AppCompatActivity {
 
-    //DatabaseReference Ref = FirebaseDatabase.getInstance().getReference().child("tb_kota");
+    DatabaseReference Ref = FirebaseDatabase.getInstance().getReference().child("tb_kota");
 
     //DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference().child("tb_kota/Kabupaten Ponorogo/deskripsi");
     //DatabaseReference mConditionRef = mRootRef.child("tb_kota/Kabupaten Pacitan/judul");
     //StorageReference storageRef = FirebaseStorage.getInstance().getReference();
     //StorageReference riversRef = storageRef.child("images/rivers.jpg");
+    TextView pd;
     private String mPost_key = null;
     private DatabaseReference mDatabase;
     private ImageView mBlogSingleImage;
     private TextView mBlogSingleTitle;
     private TextView mBlogSingleDesc;
-
+    private RecyclerView mBlogListw;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wisata);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_wisata);
+        setContentView(R.layout.activity_detail_wisata);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         mDatabase = FirebaseDatabase.getInstance().getReference().child("tb_kota");
-        mPost_key = getIntent().getExtras().getString("wisata_id");
+        mPost_key = getIntent().getExtras().getString("blog_id");
 
-        mBlogSingleDesc = (TextView) findViewById(R.id.place_detail_wisata);
-        mBlogSingleImage = (ImageView) findViewById(R.id.imageFoto_wisata);
+        mBlogListw = (RecyclerView) findViewById(R.id.recyclerviewwisata);
+        mBlogListw.setHasFixedSize(true);
+        mBlogListw.setLayoutManager(new LinearLayoutManager(this));
+
+        mBlogSingleDesc = (TextView) findViewById(R.id.place_detail);
+        mBlogSingleImage = (ImageView) findViewById(R.id.imageFoto);
 
         mDatabase.child(mPost_key).addValueEventListener(new ValueEventListener() {
             @Override
@@ -54,7 +61,7 @@ public class WisataActivity extends AppCompatActivity {
                 setTitle(post_title);
                 mBlogSingleDesc.setText(post_desc);
 
-                Picasso.with(WisataActivity.this).load(post_image).into(mBlogSingleImage);
+                Picasso.with(DetailWisataActivity.this).load(post_image).into(mBlogSingleImage);
             }
 
             @Override
@@ -63,6 +70,7 @@ public class WisataActivity extends AppCompatActivity {
             }
         });
 
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,11 +78,11 @@ public class WisataActivity extends AppCompatActivity {
                 onBackPressed();
             }
         });
-
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        return super.onCreateOptionsMenu(menu);
+    protected void onStart() {
+        super.onStart();
+
     }
 }

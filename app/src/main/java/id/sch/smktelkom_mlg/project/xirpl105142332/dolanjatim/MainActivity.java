@@ -13,8 +13,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.ListView;
-import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.google.firebase.database.DatabaseReference;
@@ -25,8 +23,7 @@ public class MainActivity extends AppCompatActivity
 
     public static final int REQUEST_CODE = 123;
 
-    TextView tv;
-    ListView lv;
+
     DatabaseReference Ref = FirebaseDatabase.getInstance().getReference();
     DatabaseReference Refa = Ref.child("tb_list/nam_kota");
     //ArrayList<String> Refa = new ArrayList<>();
