@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme.NoActionBar">
         <activity
             android:name=".MainActivity"
-            android:label="Main Menu"
+            android:label="Dolan Jatim"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,8 +26,9 @@
             android:label="@string/title_activity_tes"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".CategoryActivity" />
-        <activity android:name=".DaerahActivity" />
-        <activity android:name=".ListKotaActivity" />
+        <activity android:name=".ListKotaActivity"
+            android:label="Kota di Jatim">
+        </activity>
         <activity android:name=".DetailWisataActivity"></activity>
     </application>
 

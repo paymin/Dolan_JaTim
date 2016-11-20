@@ -14,9 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
@@ -30,13 +28,10 @@ public class MainActivity extends AppCompatActivity
 
     public static final int REQUEST_CODE = 123;
 
-    TextView tv;
-    ListView lv;
-    DatabaseReference Ref = FirebaseDatabase.getInstance().getReference().child("coba");
-    //ArrayList<String> Refa = new ArrayList<>();
-    private String mPost_key = null;
+    DatabaseReference Ref = FirebaseDatabase.getInstance().getReference().child("main/kota");
+    DatabaseReference Refa = FirebaseDatabase.getInstance().getReference().child("main/pantai");
     private RecyclerView mBlogListw;
-    private DatabaseReference mDatabase;
+    private RecyclerView mBlogListv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,25 +40,24 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        mDatabase = FirebaseDatabase.getInstance().getReference().child("tb_kota");
-        //mPost_key = getIntent().getExtras().getString("blog_id");
-
-
         mBlogListw = (RecyclerView) findViewById(R.id.recyclerviewmenu);
         mBlogListw.setHasFixedSize(true);
         mBlogListw.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL, false));
 
-        Button buto = (Button) findViewById(R.id.button);
-        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+        mBlogListv = (RecyclerView) findViewById(R.id.recyclerviewmenua);
+        mBlogListv.setHasFixedSize(true);
+        mBlogListv.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL, false));
+
+        findViewById(R.id.tvKota).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivityForResult(new Intent(MainActivity.this, ListKotaActivity.class), REQUEST_CODE);
             }
         });
-        findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.tvMore).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivityForResult(new Intent(MainActivity.this, WisataActivity.class), REQUEST_CODE);
+                startActivityForResult(new Intent(MainActivity.this, ListKotaActivity.class), REQUEST_CODE);
             }
         });
 
@@ -79,7 +73,7 @@ public class MainActivity extends AppCompatActivity
 
         ImageView imageView = (ImageView) findViewById(R.id.gambar);
 
-        Glide.with(this).load("https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/DSC_0243a.jpg?alt=media&token=191b00d3-6a52-49a6-86b5-5c27ac650e4a").into(imageView);
+        Glide.with(this).load("").into(imageView);
 
     }
 
@@ -100,7 +94,7 @@ public class MainActivity extends AppCompatActivity
                 viewHolder.mview.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent singleBlogIntent = new Intent(MainActivity.this, MainActivity.class);
+                        Intent singleBlogIntent = new Intent(MainActivity.this, TesActivity.class);
                         singleBlogIntent.putExtra("blog_id", post_key);
                         startActivity(singleBlogIntent);
                     }
@@ -108,6 +102,28 @@ public class MainActivity extends AppCompatActivity
             }
         };
         mBlogListw.setAdapter(firebaseRecyclerAdapter);
+
+        FirebaseRecyclerAdapter<Blog, BlogViewHoldera> firebaseRecyclerAdaptera = new FirebaseRecyclerAdapter<Blog, BlogViewHoldera>(
+                Blog.class, R.layout.item_list_menua, BlogViewHoldera.class, Refa) {
+            @Override
+            protected void populateViewHolder(BlogViewHoldera viewHolder, Blog model, int position) {
+
+                final String post_key = getRef(position).getKey();
+
+                viewHolder.setTitle(model.getJudul());
+                viewHolder.setImage(getApplicationContext(), model.getLogo());
+
+                viewHolder.mview.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent singleBlogIntent = new Intent(MainActivity.this, DetailWisataActivity.class);
+                        singleBlogIntent.putExtra("blog_id", post_key);
+                        startActivity(singleBlogIntent);
+                    }
+                });
+            }
+        };
+        mBlogListv.setAdapter(firebaseRecyclerAdaptera);
     }
 
     @Override
@@ -180,6 +196,26 @@ public class MainActivity extends AppCompatActivity
 
         public void setImage(Context ctx, String image) {
             ImageView post_image = (ImageView) mview.findViewById(R.id.imageViewmenu);
+            Picasso.with(ctx).load(image).into(post_image);
+        }
+
+    }
+
+    public static class BlogViewHoldera extends RecyclerView.ViewHolder {
+        View mview;
+
+        public BlogViewHoldera(View itemView) {
+            super(itemView);
+            mview = itemView;
+        }
+
+        public void setTitle(String title) {
+            TextView post_title = (TextView) mview.findViewById(R.id.textViewJudulmenua);
+            post_title.setText(title);
+        }
+
+        public void setImage(Context ctx, String image) {
+            ImageView post_image = (ImageView) mview.findViewById(R.id.imageViewmenua);
             Picasso.with(ctx).load(image).into(post_image);
         }
 

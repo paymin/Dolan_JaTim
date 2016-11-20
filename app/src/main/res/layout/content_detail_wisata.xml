@@ -43,6 +43,12 @@
             android:layout_height="wrap_content"
             tools:text="Lokasi" />
 
+
+        <include
+            layout="@layout/content_main_wisata"
+            android:layout_weight="1" />
+
+
     </LinearLayout>
 
 
