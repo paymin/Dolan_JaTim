@@ -86,7 +86,7 @@ public class ListKotaActivity extends AppCompatActivity implements NavigationVie
                 final String post_key = getRef(position).getKey();
 
                 viewHolder.setTitle(model.getJudul());
-                viewHolder.setImage(getApplicationContext(), model.getLogo());
+                viewHolder.setImage(getApplicationContext(), model.getLandmark());
 
                 viewHolder.mview.setOnClickListener(new View.OnClickListener() {
                     @Override

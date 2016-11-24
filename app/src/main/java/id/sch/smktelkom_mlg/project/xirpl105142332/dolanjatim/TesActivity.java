@@ -60,7 +60,7 @@ public class TesActivity extends AppCompatActivity {
 
                 String post_title = (String) dataSnapshot.child("judul").getValue();
                 String post_desc = (String) dataSnapshot.child("deskripsi").getValue();
-                String post_image = (String) dataSnapshot.child("logo").getValue();
+                String post_image = (String) dataSnapshot.child("landmark").getValue();
 
                 setTitle(post_title);
                 mBlogSingleDesc.setText(post_desc);

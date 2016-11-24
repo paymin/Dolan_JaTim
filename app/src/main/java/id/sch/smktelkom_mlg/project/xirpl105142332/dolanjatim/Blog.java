@@ -8,15 +8,25 @@ public class Blog {
     private String deskripsi;
     private String judul;
     private String logo;
+    private String landmark;
 
     public Blog() {
 
     }
 
-    public Blog(String deskripsi, String judul, String logo) {
+    public Blog(String deskripsi, String judul, String logo, String landmark) {
         this.deskripsi = deskripsi;
         this.judul = judul;
         this.logo = logo;
+        this.landmark = landmark;
+    }
+
+    public String getLandmark() {
+        return landmark;
+    }
+
+    public void setLandmark(String landmark) {
+        this.landmark = landmark;
     }
 
     public String getLogo() {
