@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.ImageView;
@@ -22,20 +23,13 @@ import com.squareup.picasso.Picasso;
 
 public class TesActivity extends AppCompatActivity {
 
-    DatabaseReference Ref = FirebaseDatabase.getInstance().getReference().child("tb_kota");
-
-    //DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference().child("tb_kota/Kabupaten Ponorogo/deskripsi");
-    //DatabaseReference mConditionRef = mRootRef.child("tb_kota/Kabupaten Pacitan/judul");
-    //StorageReference storageRef = FirebaseStorage.getInstance().getReference();
-    //StorageReference riversRef = storageRef.child("images/rivers.jpg");
-    TextView pd;
+    DatabaseReference Air = FirebaseDatabase.getInstance().getReference().child("tb_kota/");
     private String mPost_key = null;
     private DatabaseReference mDatabase;
     private ImageView mBlogSingleImage;
     private TextView mBlogSingleTitle;
     private TextView mBlogSingleDesc;
     private RecyclerView mBlogListw;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +40,7 @@ public class TesActivity extends AppCompatActivity {
 
         mDatabase = FirebaseDatabase.getInstance().getReference().child("tb_kota");
         mPost_key = getIntent().getExtras().getString("blog_id");
+
 
         mBlogListw = (RecyclerView) findViewById(R.id.recyclerviewwisata);
         mBlogListw.setHasFixedSize(true);
@@ -89,24 +84,28 @@ public class TesActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-
+        DatabaseReference Zz = Air.child(mPost_key);
+        DatabaseReference Wis = Zz.child("wisata");
         FirebaseRecyclerAdapter<Blog, BlogViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Blog, BlogViewHolder>(
-                Blog.class, R.layout.item_list_wisata, BlogViewHolder.class, Ref) {
+                Blog.class, R.layout.item_list_wisata, BlogViewHolder.class, Wis) {
+
             @Override
             protected void populateViewHolder(BlogViewHolder viewHolder, Blog model, int position) {
 
                 final String post_key = getRef(position).getKey();
 
-                viewHolder.setTitle(model.getJudul());
-                viewHolder.setDesc(model.getDeskripsi());
-                viewHolder.setImage(getApplicationContext(), model.getLogo());
+                viewHolder.SetNama_wisata(model.getNama_wisata());
+                viewHolder.setDetail(model.getDetail());
+                viewHolder.setGambar(getApplicationContext(), model.getGambar());
 
                 viewHolder.mview.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         Intent singleBlogIntent = new Intent(TesActivity.this, DetailWisataActivity.class);
-                        singleBlogIntent.putExtra("blog_id", post_key);
+                        singleBlogIntent.putExtra("kota_id", mPost_key);
+                        singleBlogIntent.putExtra("wisata_id", post_key);
                         startActivity(singleBlogIntent);
+                        Log.d("Zz: ", post_key);
                     }
                 });
             }
@@ -127,19 +126,19 @@ public class TesActivity extends AppCompatActivity {
             mview = itemView;
         }
 
-        public void setTitle(String title) {
+        public void SetNama_wisata(String nama_wisata) {
             TextView post_title = (TextView) mview.findViewById(R.id.textViewJudulwisata);
-            post_title.setText(title);
+            post_title.setText(nama_wisata);
         }
 
-        public void setDesc(String Desc) {
+        public void setDetail(String Detail) {
             TextView post_title = (TextView) mview.findViewById(R.id.textViewDeskripsiwisata);
-            post_title.setText(Desc);
+            post_title.setText(Detail);
         }
 
-        public void setImage(Context ctx, String image) {
+        public void setGambar(Context ctx, String gambar) {
             ImageView post_image = (ImageView) mview.findViewById(R.id.imageViewwisata);
-            Picasso.with(ctx).load(image).into(post_image);
+            Picasso.with(ctx).load(gambar).into(post_image);
         }
 
     }

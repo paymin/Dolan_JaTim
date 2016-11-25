@@ -26,11 +26,12 @@ public class DetailWisataActivity extends AppCompatActivity {
     //StorageReference riversRef = storageRef.child("images/rivers.jpg");
     TextView pd;
     private String mPost_key = null;
+    private String wisata_key = null;
     private DatabaseReference mDatabase;
     private ImageView mBlogSingleImage;
-    private TextView mBlogSingleTitle;
     private TextView mBlogSingleDesc;
     private RecyclerView mBlogListw;
+    private TextView lokasi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,25 +42,31 @@ public class DetailWisataActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         mDatabase = FirebaseDatabase.getInstance().getReference().child("tb_kota");
-        mPost_key = getIntent().getExtras().getString("blog_id");
+        mPost_key = getIntent().getExtras().getString("kota_id");
+        wisata_key = getIntent().getExtras().getString("wisata_id");
+        DatabaseReference kota = Ref.child(mPost_key);
+        DatabaseReference wisata = kota.child("wisata");
 
         mBlogListw = (RecyclerView) findViewById(R.id.recyclerviewwisata);
         mBlogListw.setHasFixedSize(true);
         mBlogListw.setLayoutManager(new LinearLayoutManager(this));
 
-        mBlogSingleDesc = (TextView) findViewById(R.id.place_detail);
-        mBlogSingleImage = (ImageView) findViewById(R.id.imageFoto);
+        mBlogSingleDesc = (TextView) findViewById(R.id.wisata_detail);
+        lokasi = (TextView) findViewById(R.id.wisata_location);
+        mBlogSingleImage = (ImageView) findViewById(R.id.imageFotowisata);
 
-        mDatabase.child(mPost_key).addValueEventListener(new ValueEventListener() {
+        wisata.child(wisata_key).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
-                String post_title = (String) dataSnapshot.child("judul").getValue();
-                String post_desc = (String) dataSnapshot.child("deskripsi").getValue();
-                String post_image = (String) dataSnapshot.child("landmark").getValue();
+                String post_title = (String) dataSnapshot.child("nama_wisata").getValue();
+                String post_desc = (String) dataSnapshot.child("detail").getValue();
+                String post_image = (String) dataSnapshot.child("gambar").getValue();
+                String post_location = (String) dataSnapshot.child("lokasi").getValue();
 
                 setTitle(post_title);
                 mBlogSingleDesc.setText(post_desc);
+                lokasi.setText(post_location);
 
                 Picasso.with(DetailWisataActivity.this).load(post_image).into(mBlogSingleImage);
             }

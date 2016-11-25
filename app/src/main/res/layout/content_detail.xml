@@ -18,13 +18,6 @@
         android:weightSum="1">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="Description"
-            android:textColor="?attr/colorAccent" />
-
-        <TextView
             android:id="@+id/place_detail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:layout_marginTop="16dp"
-            android:text="Location"
+            android:text="Wisata"
             android:textColor="?attr/colorAccent" />
 
         <TextView
@@ -45,10 +38,10 @@
             tools:text="Lokasi" />
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="240dp"
-            android:layout_weight="1.22">
+            android:layout_weight="1.22"
+            android:orientation="vertical">
 
             <include
                 layout="@layout/content_main_wisata"

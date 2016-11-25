@@ -24,7 +24,7 @@
             android:textColor="?attr/colorAccent" />
 
         <TextView
-            android:id="@+id/place_detail"
+            android:id="@+id/wisata_detail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="deskripsi" />
@@ -38,7 +38,7 @@
             android:textColor="?attr/colorAccent" />
 
         <TextView
-            android:id="@+id/place_location"
+            android:id="@+id/wisata_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="Lokasi" />

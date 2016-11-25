@@ -9,16 +9,53 @@ public class Blog {
     private String judul;
     private String logo;
     private String landmark;
+    private String detail;
+    private String gambar;
+    private String nama_wisata;
+    private String key_kota;
+
 
     public Blog() {
 
     }
 
-    public Blog(String deskripsi, String judul, String logo, String landmark) {
+    public Blog(String deskripsi, String judul, String logo, String landmark, String detail, String gambar, String nama_wisata, String key_kota) {
         this.deskripsi = deskripsi;
         this.judul = judul;
         this.logo = logo;
         this.landmark = landmark;
+    }
+
+    public String getKey_kota() {
+        return key_kota;
+    }
+
+    public void setKey_kota(String key_kota) {
+        this.key_kota = key_kota;
+    }
+
+    public String getDetail() {
+        return detail;
+    }
+
+    public void setDetail(String detail) {
+        this.detail = detail;
+    }
+
+    public String getGambar() {
+        return gambar;
+    }
+
+    public void setGambar(String gambar) {
+        this.gambar = gambar;
+    }
+
+    public String getNama_wisata() {
+        return nama_wisata;
+    }
+
+    public void setNama_wisata(String nama_wisata) {
+        this.nama_wisata = nama_wisata;
     }
 
     public String getLandmark() {
