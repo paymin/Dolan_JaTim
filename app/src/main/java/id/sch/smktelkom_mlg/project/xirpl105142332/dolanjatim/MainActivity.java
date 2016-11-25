@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity
         findViewById(R.id.tvKota).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivityForResult(new Intent(MainActivity.this, ListKotaActivity.class), REQUEST_CODE);
+                startActivityForResult(new Intent(MainActivity.this, WisataActivity.class), REQUEST_CODE);
             }
         });
         /*findViewById(R.id.tvMore).setOnClickListener(new View.OnClickListener() {
@@ -199,20 +199,26 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.navAirTerjun) {
-            AirTerjunFragment fragment = new AirTerjunFragment();
-            android.support.v4.app.FragmentTransaction fragmentTransaction =
-                    getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.mainb, fragment);
-            fragmentTransaction.commit();
+            Intent singleBlogIntent = new Intent(MainActivity.this, WisataActivity.class);
+            singleBlogIntent.putExtra("wisata_id", "air terjun");
+            startActivity(singleBlogIntent);
+
         } else if (id == R.id.navDanau) {
-            Toast.makeText(this, "Ini Danau", Toast.LENGTH_SHORT).show();
+            Intent singleBlogIntent = new Intent(MainActivity.this, WisataActivity.class);
+            singleBlogIntent.putExtra("wisata_id", "danau");
+            startActivity(singleBlogIntent);
 
         } else if (id == R.id.navGunung) {
+            Intent singleBlogIntent = new Intent(MainActivity.this, WisataActivity.class);
+            singleBlogIntent.putExtra("wisata_id", "gunung");
+            startActivity(singleBlogIntent);
 
         } else if (id == R.id.navPantai) {
+            Intent singleBlogIntent = new Intent(MainActivity.this, WisataActivity.class);
+            singleBlogIntent.putExtra("wisata_id", "pantai");
+            startActivity(singleBlogIntent);
 
         } else if (id == R.id.navHome) {
-            startActivityForResult(new Intent(MainActivity.this, MainActivity.class), REQUEST_CODE);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
