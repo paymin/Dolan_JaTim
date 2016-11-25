@@ -2,8 +2,10 @@ package id.sch.smktelkom_mlg.project.xirpl105142332.dolanjatim;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -16,19 +18,23 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.makeramen.roundedimageview.RoundedTransformationBuilder;
 import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Transformation;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     public static final int REQUEST_CODE = 123;
+    NavigationView navigationView = null;
 
-    DatabaseReference Ref = FirebaseDatabase.getInstance().getReference().child("main/kota");
+    DatabaseReference Ref = FirebaseDatabase.getInstance().getReference().child("condition/kota");
     //DatabaseReference Refa = FirebaseDatabase.getInstance().getReference().child("main/pantai");
 
     @Override
@@ -37,6 +43,14 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        /*AirTerjunFragment fragment = new AirTerjunFragment();
+        android.support.v4.app.FragmentTransaction fragmentTransaction =
+                getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.fragment_container, fragment);
+        fragmentTransaction.commit();*/
+
+
 
         RecyclerView mBlogListw = (RecyclerView) findViewById(R.id.recyclerviewmenu);
         mBlogListw.setHasFixedSize(true);
@@ -71,7 +85,7 @@ public class MainActivity extends AppCompatActivity
 
         ImageView imageView = (ImageView) findViewById(R.id.gambar);
 
-        Glide.with(this).load("").into(imageView);
+        Glide.with(this).load("https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/landmark%252Fkotasurabaya.jpg?alt=media&token=5dfeff74-943d-402c-b79f-6644b4865eb0").into(imageView);
 
         FirebaseRecyclerAdapter<Blog, BlogViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Blog, BlogViewHolder>(
                 Blog.class, R.layout.item_list_menu, BlogViewHolder.class, Ref) {
@@ -185,15 +199,20 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.navAirTerjun) {
-
+            AirTerjunFragment fragment = new AirTerjunFragment();
+            android.support.v4.app.FragmentTransaction fragmentTransaction =
+                    getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.mainb, fragment);
+            fragmentTransaction.commit();
         } else if (id == R.id.navDanau) {
+            Toast.makeText(this, "Ini Danau", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.navGunung) {
 
         } else if (id == R.id.navPantai) {
 
         } else if (id == R.id.navHome) {
-
+            startActivityForResult(new Intent(MainActivity.this, MainActivity.class), REQUEST_CODE);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -216,7 +235,13 @@ public class MainActivity extends AppCompatActivity
 
         public void setImage(Context ctx, String image) {
             ImageView post_image = (ImageView) mview.findViewById(R.id.imageViewmenu);
-            Picasso.with(ctx).load(image).into(post_image);
+            Transformation transformation = new RoundedTransformationBuilder()
+                    .borderColor(Color.BLACK)
+                    .borderWidthDp(0)
+                    .cornerRadiusDp(260)
+                    .oval(false)
+                    .build();
+            Picasso.with(ctx).load(image).transform(transformation).into(post_image);
         }
 
     }
