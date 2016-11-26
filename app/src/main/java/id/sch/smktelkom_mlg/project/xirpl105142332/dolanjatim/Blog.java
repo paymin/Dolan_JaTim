@@ -24,6 +24,8 @@ public class Blog {
         this.judul = judul;
         this.logo = logo;
         this.landmark = landmark;
+        this.gambar = gambar;
+        this.nama_wisata = nama_wisata;
     }
 
     public String getKey_kota() {
@@ -90,5 +92,20 @@ public class Blog {
         this.judul = judul;
     }
 
+    public String getGambar() {
+        return gambar;
+    }
+
+    public void setGambar(String gambar) {
+        this.gambar = gambar;
+    }
+
+    public String getNama_wisata() {
+        return nama_wisata;
+    }
+
+    public void setNama_wisata(String nama_wisata) {
+        this.nama_wisata = nama_wisata;
+    }
 
 }

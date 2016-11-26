@@ -29,9 +29,11 @@
         <activity android:name=".CategoryActivity" />
         <activity
             android:name=".ListKotaActivity"
-            android:label="Kota di Jatim"></activity>
+            android:label="Kota di Jatim" />
         <activity android:name=".DetailWisataActivity" />
-        <activity android:name=".DanauActivity"></activity>
+        <activity
+            android:name=".WisataActivity"
+            android:label="Iki wisatane coy" />
     </application>
 
 </manifest>
