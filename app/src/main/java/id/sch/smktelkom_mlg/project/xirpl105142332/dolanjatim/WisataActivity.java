@@ -3,7 +3,6 @@ package id.sch.smktelkom_mlg.project.xirpl105142332.dolanjatim;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -29,6 +28,7 @@ public class WisataActivity extends AppCompatActivity implements NavigationView.
 
     private RecyclerView mBlogList;
     private String zz = null;
+    private String nama = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +38,7 @@ public class WisataActivity extends AppCompatActivity implements NavigationView.
         setSupportActionBar(toolbar);
 
         zz = getIntent().getExtras().getString("wisata_id");
+        nama = getIntent().getExtras().getString("nama");
 
         mBlogList = (RecyclerView) findViewById(R.id.recyclerviewwisata);
         mBlogList.setHasFixedSize(true);
@@ -54,6 +55,8 @@ public class WisataActivity extends AppCompatActivity implements NavigationView.
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_viewa);
         navigationView.setNavigationItemSelectedListener(this);
 
+        setTitle(nama);
+
     }
 
     @SuppressWarnings("StatementWithEmptyBody")
@@ -63,15 +66,45 @@ public class WisataActivity extends AppCompatActivity implements NavigationView.
         int id = item.getItemId();
 
         if (id == R.id.navAirTerjun) {
+            if (!nama.equals("Air Terjun")) {
+                Intent singleBlogIntent = new Intent(WisataActivity.this, WisataActivity.class);
+                singleBlogIntent.putExtra("wisata_id", "air terjun");
+                singleBlogIntent.putExtra("nama", "Air Terjun");
+                startActivity(singleBlogIntent);
+                this.finish();
+            }
+
 
         } else if (id == R.id.navDanau) {
+            if (!nama.equals("Danau")) {
+                Intent singleBlogIntent = new Intent(WisataActivity.this, WisataActivity.class);
+                singleBlogIntent.putExtra("wisata_id", "danau");
+                singleBlogIntent.putExtra("nama", "Danau");
+                startActivity(singleBlogIntent);
+                this.finish();
+            }
 
         } else if (id == R.id.navGunung) {
+            if (!nama.equals("Gunung")) {
+                Intent singleBlogIntent = new Intent(WisataActivity.this, WisataActivity.class);
+                singleBlogIntent.putExtra("wisata_id", "gunung");
+                singleBlogIntent.putExtra("nama", "Gunung");
+                startActivity(singleBlogIntent);
+                this.finish();
+            }
 
         } else if (id == R.id.navPantai) {
+            if (!nama.equals("Pantai")) {
+                Intent singleBlogIntent = new Intent(WisataActivity.this, WisataActivity.class);
+                singleBlogIntent.putExtra("wisata_id", "pantai");
+                singleBlogIntent.putExtra("nama", "Pantai");
+                startActivity(singleBlogIntent);
+                this.finish();
+            }
 
         } else if (id == R.id.navHome) {
-
+            startActivity(new Intent(WisataActivity.this, MainActivity.class));
+            this.finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layouta);
@@ -91,6 +124,7 @@ public class WisataActivity extends AppCompatActivity implements NavigationView.
             protected void populateViewHolder(BlogViewHolder viewHolder, Blog model, int position) {
 
                 final String post_key = getRef(position).getKey();
+                final String key_kota = model.getKey_kota();
 
                 viewHolder.setTitle(model.getNama_wisata());
                 viewHolder.setImage(getApplicationContext(), model.getGambar());
@@ -99,7 +133,8 @@ public class WisataActivity extends AppCompatActivity implements NavigationView.
                     @Override
                     public void onClick(View v) {
                         Intent singleBlogIntent = new Intent(WisataActivity.this, DetailWisataActivity.class);
-                        singleBlogIntent.putExtra("blog_id", post_key);
+                        singleBlogIntent.putExtra("wisata_id", post_key);
+                        singleBlogIntent.putExtra("kota_id", key_kota);
                         startActivity(singleBlogIntent);
                     }
                 });
@@ -123,12 +158,12 @@ public class WisataActivity extends AppCompatActivity implements NavigationView.
         }
 
         public void setTitle(String title) {
-            TextView post_title = (TextView) mview.findViewById(R.id.textViewJudulu);
+            TextView post_title = (TextView) mview.findViewById(R.id.textViewJuduluu);
             post_title.setText(title);
         }
 
         public void setImage(Context ctx, String image) {
-            ImageView post_image = (ImageView) mview.findViewById(R.id.imageViewu);
+            ImageView post_image = (ImageView) mview.findViewById(R.id.imageViewuu);
             Picasso.with(ctx).load(image).into(post_image);
         }
 

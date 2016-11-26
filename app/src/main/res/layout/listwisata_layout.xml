@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:padding="10dp">
         <ImageView
-            android:id="@+id/imageViewu"
+            android:id="@+id/imageViewuu"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:scaleType="centerCrop"
@@ -24,7 +24,7 @@
             android:background="#424242" />
 
         <TextView
-            android:id="@+id/textViewJudulu"
+            android:id="@+id/textViewJuduluu"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:gravity="center"

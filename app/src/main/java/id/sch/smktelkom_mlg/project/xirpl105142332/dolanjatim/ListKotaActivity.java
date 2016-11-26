@@ -58,15 +58,36 @@ public class ListKotaActivity extends AppCompatActivity implements NavigationVie
         int id = item.getItemId();
 
         if (id == R.id.navAirTerjun) {
+            Intent singleBlogIntent = new Intent(ListKotaActivity.this, WisataActivity.class);
+            singleBlogIntent.putExtra("wisata_id", "air terjun");
+            singleBlogIntent.putExtra("nama", "Air Terjun");
+            startActivity(singleBlogIntent);
+            this.finish();
 
         } else if (id == R.id.navDanau) {
+            Intent singleBlogIntent = new Intent(ListKotaActivity.this, WisataActivity.class);
+            singleBlogIntent.putExtra("wisata_id", "danau");
+            singleBlogIntent.putExtra("nama", "Danau");
+            startActivity(singleBlogIntent);
+            this.finish();
 
         } else if (id == R.id.navGunung) {
+            Intent singleBlogIntent = new Intent(ListKotaActivity.this, WisataActivity.class);
+            singleBlogIntent.putExtra("wisata_id", "gunung");
+            singleBlogIntent.putExtra("nama", "Gunung");
+            startActivity(singleBlogIntent);
+            this.finish();
 
         } else if (id == R.id.navPantai) {
+            Intent singleBlogIntent = new Intent(ListKotaActivity.this, WisataActivity.class);
+            singleBlogIntent.putExtra("wisata_id", "pantai");
+            singleBlogIntent.putExtra("nama", "Pantai");
+            startActivity(singleBlogIntent);
+            this.finish();
 
         } else if (id == R.id.navHome) {
-
+            startActivity(new Intent(ListKotaActivity.this, MainActivity.class));
+            this.finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layouta);

@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
-import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -18,7 +17,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
@@ -35,7 +33,6 @@ public class MainActivity extends AppCompatActivity
     NavigationView navigationView = null;
 
     DatabaseReference Ref = FirebaseDatabase.getInstance().getReference().child("condition/kota");
-    //DatabaseReference Refa = FirebaseDatabase.getInstance().getReference().child("main/pantai");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,18 +57,12 @@ public class MainActivity extends AppCompatActivity
         mBlogListv.setHasFixedSize(true);
         mBlogListv.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL, false));*/
 
-        findViewById(R.id.tvKota).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivityForResult(new Intent(MainActivity.this, WisataActivity.class), REQUEST_CODE);
-            }
-        });
-        /*findViewById(R.id.tvMore).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.tvViewMore).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivityForResult(new Intent(MainActivity.this, ListKotaActivity.class), REQUEST_CODE);
             }
-        });*/
+        });
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -201,22 +192,30 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.navAirTerjun) {
             Intent singleBlogIntent = new Intent(MainActivity.this, WisataActivity.class);
             singleBlogIntent.putExtra("wisata_id", "air terjun");
+            singleBlogIntent.putExtra("nama", "Air Terjun");
             startActivity(singleBlogIntent);
+            this.finish();
 
         } else if (id == R.id.navDanau) {
             Intent singleBlogIntent = new Intent(MainActivity.this, WisataActivity.class);
             singleBlogIntent.putExtra("wisata_id", "danau");
+            singleBlogIntent.putExtra("nama", "Danau");
             startActivity(singleBlogIntent);
+            this.finish();
 
         } else if (id == R.id.navGunung) {
             Intent singleBlogIntent = new Intent(MainActivity.this, WisataActivity.class);
             singleBlogIntent.putExtra("wisata_id", "gunung");
+            singleBlogIntent.putExtra("nama", "Gunung");
             startActivity(singleBlogIntent);
+            this.finish();
 
         } else if (id == R.id.navPantai) {
             Intent singleBlogIntent = new Intent(MainActivity.this, WisataActivity.class);
             singleBlogIntent.putExtra("wisata_id", "pantai");
+            singleBlogIntent.putExtra("nama", "Pantai");
             startActivity(singleBlogIntent);
+            this.finish();
 
         } else if (id == R.id.navHome) {
         }
