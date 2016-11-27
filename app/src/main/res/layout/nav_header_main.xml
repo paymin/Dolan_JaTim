@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1.05"
-        app:srcCompat="@drawable/icon2" />
+        app:srcCompat="@drawable/icon3" />
 
     <TextView
         android:layout_width="match_parent"

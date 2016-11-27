@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity
 
         ImageView imageView = (ImageView) findViewById(R.id.gambar);
 
-        Glide.with(this).load("https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/landmark%252Fkotasurabaya.jpg?alt=media&token=5dfeff74-943d-402c-b79f-6644b4865eb0").into(imageView);
+        Picasso.with(this).load("https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/8U2yHxa.jpg?alt=media&token=a3b92756-ba2f-44a5-845e-c5c124d1c3c1").into(imageView);
 
         FirebaseRecyclerAdapter<Blog, BlogViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Blog, BlogViewHolder>(
                 Blog.class, R.layout.item_list_menu, BlogViewHolder.class, Ref) {
