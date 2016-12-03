@@ -1,0 +1,473 @@
+{
+  "Pantai Camplong" : {
+    "detail" : "Pantai Camplong sendiri bukan termasuk dalam objek wisata alam yang baru, tempat wisata ini sudah banyak dikenal oleh banyak wisatawan yang berasal dari dalam maupun luar Kabupaten Sampang.<br>Sama seperti pantai yang ada di tempat lainnya, Pantai Camplong diam-diam menyimpan keindahan alam yang luar biasa mulai dari pasirnya yang putih, ombaknya yang tidak terlalu tinggi, deburan ombak dan hembusan angin yang akan mampu memanjakan pikiran teman-teman saat berkunjung kesana.",
+    "gambar" : "https",
+    "key_kota" : "https://dolan-jatim-cc1f1.firebaseio.com/tb_kota/Kabupaten Sampang",
+    "lokasi" : "Desa Dharma Camplong, Kecamatan Camplong",
+    "nama_kota" : "Kabupaten Sampang",
+    "nama_wisata" : "Pantai Camplong"
+  },
+  "Pantai Lombang" : {
+    "detail" : "Pantai Lombang memiliki kesan istimewa karena memiliki hamparan pasir putih sepanjang 12 kilometer. Berbeda dengan pantai lainnya yang umumnya dihiasi oleh pepohonan kelapa, di pantai ini wisatawan dapat melihat deretan pohon-pohon cemara udang. Tinggi pepohonan tersebut sekitar 4 meter di atas tanah, namun tidak dalam kondisi tegak, melainkan agak membungkuk sehingga nampak seperti udang. Di tengah kondisi cuaca di Pulau Madura yang terkenal panas, berlindung di bawah rerimbunan daun pohon cemara ini dapat sedikit menghela cuaca panas tersebut",
+    "gambar" : "https",
+    "key_kota" : "https://dolan-jatim-cc1f1.firebaseio.com/tb_kota/Kabupaten Sumenep",
+    "lokasi" : "Desa Lombang, Kecamatan Batang-Batang, Kabupaten Sumenep",
+    "nama_kota" : "Kabupaten Sumenep",
+    "nama_wisata" : "Pantai Lombang"
+  },
+  "Pantai Nepa" : {
+    "detail" : "Pantai Nepa ini sungguh begitu indah, masihlah begitu alami lantaran tidak sering tersentuh oleh jamahan tangan orang. Hamparan pasirnya begitu nyaman dilihat mata, deburan ombak bikin perasaan jadi tenang serta ditambah hembusan angin dan hawa sejuk dari pohon-pohon yang datang dari Rimba Kera Nepa yang terdapat pas bersebelahan dengan Pantai Nepa. Anda dapat juga bermain air atau berenang di pinggir pantai.<br>Diluar itu anda dapat juga bermain – main dengan beberapa kumpulan monyet yang ada didalam lokasi Rimba Nepa. Dapat pula sebatas duduk enjoy di bawah pohon-pohon yang rindang sembari bersabar menanti untuk bia nikmati senja di sore hari. Makin mendekati sore hari panorama yang dapat anda nikmati makin indah juga menakjubkan. Untuk anda beberapa wisatawan yang sukai dengan ketenangan kelihatannya pantai Nepa jadi satu diantara destinasi tempat wisata yang pas untuk dapat anda tentukan.",
+    "gambar" : "https",
+    "key_kota" : "https://dolan-jatim-cc1f1.firebaseio.com/tb_kota/Kabupaten Sampang",
+    "lokasi" : "Batioh, Banyuates, Batioh, Banyuates, Kabupaten Sampang",
+    "nama_kota" : "Kabupaten Sampang",
+    "nama_wisata" : "Pantai Nepa"
+  },
+  "Pantai Rongkang" : {
+    "detail" : "Tempat Wisata Pantai Rongkang Bangkalan Madura terletak di Desa Kwanyar Barat Kecamatan Kwanyar Kabupaten Bangkalan, kira-kira 35 km di selatan kota Bangkalan. Kabupaten Bangkalan merupakan sebuah kabupaten di Pulau Madura, Provinsi Jawa Timur, Indonesia. Ibukotanya adalah Bangkalan. Kabupaten ini terletak di ujung paling barat Pulau Madura; berbatasan dengan Laut Jawa di utara, Kabupaten Sampang di timur serta Selat Madura di selatan dan barat.",
+    "gambar" : "https://",
+    "key_kota" : "https://dolan-jatim-cc1f1.firebaseio.com/tb_kota/Kota Surabaya",
+    "lokasi" : "Desa Kwanyar Barat, Kecamatan Kwanyar, Kwanyar Bar., Bangkalan, Kabupaten Bangkalan, Jawa Timur 69163",
+    "nama_kota" : "Kabupaten Bangkalan",
+    "nama_wisata" : "Pantai Rongkang"
+  },
+    "Pantai Maneron Sepulu" : {
+        "detail" : "Pantai Maneron di pesisir barat perairan Selat Madura memang menawarkan keelokan estetika alam yang amat mempesona. Pantai ini berada di lingkup alam pegunungan di Desa Maneron, Kecamatan Sepulu, Kabupaten Bangkalan, Madura, Jawa Timur. Bentuk pantainya yang melengkung sepanjang 1 km lebih menggelar hamparan pasir putih, halus, padat dan bersih kemilau. Bahkan, karena pantainya menghadap ke ufuk barat, maka di tempat ini pun pelancong dapat menikmati ajaibnya perjalanan alam sunset.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Bangkalan",
+        "lokasi" : "Jl. Raya Maneron, Bator, Bangkalan, Kabupaten Bangkalan, Jawa Timur 69153",
+        "nama_kota" : "Kabupaten Bangkalan",
+        "nama_wisata" : "Pantai Maneron Sepulu"
+      },
+    "Pantai Nepa" : {
+        "detail" : "Pantai Maneron di pesisir barat perairan Selat Madura memang menawarkan keelokan estetika alam yang amat mempesona. Pantai ini berada di lingkup alam pegunungan di Desa Maneron, Kecamatan Sepulu, Kabupaten Bangkalan, Madura, Jawa Timur. Bentuk pantainya yang melengkung sepanjang 1 km lebih menggelar hamparan pasir putih, halus, padat dan bersih kemilau. Bahkan, karena pantainya menghadap ke ufuk barat, maka di tempat ini pun pelancong dapat menikmati ajaibnya perjalanan alam sunset.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Bangkalan",
+        "lokasi" : "Desa Batioh Kecamatan Ketapang",
+        "nama_kota" : "Kabupaten Bangkalan",
+        "nama_wisata" : "Pantai Nepa"
+      },"Pantai Rongkang" : {
+        "detail" : "Tempat Wisata Pantai Rongkang Bangkalan Madura terletak di Desa Kwanyar Barat Kecamatan Kwanyar Kabupaten Bangkalan, kira-kira 35 km di selatan kota Bangkalan. Kabupaten Bangkalan merupakan sebuah kabupaten di Pulau Madura, Provinsi Jawa Timur, Indonesia. Ibukotanya adalah Bangkalan. Kabupaten ini terletak di ujung paling barat Pulau Madura; berbatasan dengan Laut Jawa di utara, Kabupaten Sampang di timur serta Selat Madura di selatan dan barat.",
+        "gambar" : "https://",
+        "key_kota" : "Kabupaten Bangkalan",
+        "lokasi" : "Desa Kwanyar Barat, Kecamatan Kwanyar, Kwanyar Bar., Bangkalan, Kabupaten Bangkalan, Jawa Timur 69163",
+        "nama_kota" : "Kabupaten Bangkalan",
+        "nama_wisata" : "Pantai Rongkang"
+      },
+      "Pantai Sambilangan" : {
+        "detail" : "Pantai Sambilangan merupakan pantai yang sangat eksotis yang terletak sekitar 7 km di sebelah selatan dari kota Bangkalan, di desa Sambilangan , kecamatan Bangkalan, Madura, Jawa Timur. Pantai Sambilangan terbilang merupakan pantai yang masih terpencil dan sangat alami. Walaupun begitu saat anda tiba di pantai ini anda tetap akan dikenakan tiket masuk kendaraan. Untuk kendaraan mobil akan dikenakan tarif sebesar Rp 3.000*) sedangkan motor sebesar Rp 2.000*).",
+        "gambar" : "https://",
+        "key_kota" : "Kabupaten Bangkalan",
+        "lokasi" : "7 km di sebelah selatan dari kota Bangkalan, di desa Sambilangan , kecamatan Bangkalan",
+        "nama_kota" : "Kabupaten Bangkalan",
+        "nama_wisata" : "Pantai Sambilangan"
+      },
+      "Pantai Siring Kemuning" : {
+        "detail" : "Para Penelusur, Di Pulau Madura, ada dua jalur jalan raya dapat dilalui dari ujung barat sampai ujung timur Pulau Madura, yaitu jalur tengah dan jalur utara. Bila anda melewati jalur tengah akan melintas kota-kota Bangkalan, Sampang, Pamekasan lalu sampai ke Sumenep. Namun bila anda melalui jalur utara, akan disuguhi sejumlah pemandangan yang banrangkali tak ingin mata berkedip, karena sepanjang jalur itu membentang pantai-pantai indah.",
+        "gambar" : "https://",
+        "key_kota" : "Kabupaten Bangkalan",
+        "lokasi" : "Macajah, Tanjungbumi, Kabupaten Bangkalan, Jawa Timur 69156",
+        "nama_kota" : "Kabupaten Bangkalan",
+        "nama_wisata" : "Pantai Siring Kemuning"
+      },
+      "Pantai Slopeng" : {
+        "detail" : "Pantai Slopeng merupakan salah satu tempat wisata alam andalan Kabupaten Sumenep.Jangan beranjak dari Pantai Slopeng sebelum senja berlalu, karena jika kamu melakukan itu, kamu akan kehilangan keindahan yang ditawarkan Sunset di Pantai Slopeng. Menjelang matahari tenggelam, air laut yang tadinya berwarna biru kehijauan akan berubah menjadi keemasan membawa suasana damai dan romantis. Tetapi akan terasa sangat romantis lagi jika ditemani pujaan hati. Untuk itu stay di Pantai Slopeng sampai malam, dan jangan lupa siapkan kamera untuk mengabadikan  moment indah ini.",
+        "gambar" : "https://",
+        "key_kota" : "Kabupaten Bangkalan",
+        "lokasi" : "21 km dari pusat kota Sumenep, dan 197 km dari pusat kota Surabaya",
+        "nama_kota" : "Kabupaten Bangkalan",
+        "nama_wisata" : "Pantai Slopeng"
+      },
+    "Pantai Ponjuk Timur Talango" : {
+        "detail" : "Asal mula dikatakan ponjuk karena diutara dan selatan itu ada makamnya yaitu yang selatan adalah makamnya Ibu Koneng yang ibu koneng tersebut keturunan dari ratu Sumenep dikatakan ibu koneng karena sekecamatan talango bahkan sesumenep paling cantiknya perempuan dan yang utara makam Roto Jimat karena mulai dari dulu beliau banyak jimatnya. Dipojuk timur poteran yang menjaga disana adalah gurita yang sangat besar bahkan saking besarnya kaki-kaki gurita tersebut satu kaki itu besarnya sama dengan pohon kelapa dan penjaga jimatnya adalah ular naga yang sampai sekarang ada di dalam gua.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Bangkalan",
+        "lokasi" : "Unnamed Rd, Talango, Kab. Sumenep, Jawa Tim., Kombang, Talango, Kabupaten Sumenep, Jawa Timur ",
+        "nama_kota" : "Kabupaten Bangkalan",
+        "nama_wisata" : "Pantai Ponjuk Timur Talango"
+      },
+  "Pantai Sambilangan" : {
+    "detail" : "Tempat Wisata Pantai Sambilangan Madura. Para Penelusur tau ga dimana Pantai Sambilangan?, kami disini mau berbagi beberapa keindahan dari Pantai Sambilangan. Karena Pantai Sambilangan merupakan pantai yang sangat eksotis yang terletak sekitar 7 km di sebelah selatan dari kota Bangkalan, di desa Sambilangan , kecamatan Bangkalan, Madura, Jawa Timur. Pantai Sambilangan terbilang merupakan pantai yang masih terpencil dan sangat alami. Walaupun begitu saat anda tiba di pantai ini anda tetap akan dikenakan tiket masuk kendaraan. Untuk kendaraan mobil akan dikenakan tarif sebesar Rp 3.000*) sedangkan motor sebesar Rp 2.000*).",
+    "gambar" : "https",
+    "key_kota" : "https://dolan-jatim-cc1f1.firebaseio.com/tb_kota/kabupaten Bangkalan",
+    "lokasi" : "Macajah, Tanjungbumi, Kabupaten Bangkalan",
+    "nama_kota" : "Kabupaten Bangkalan",
+    "nama_wisata" : "Pantai Sambilangan"
+  },
+  "Pulau Sempu" : {
+    "detail" : "Wisata Pulau Sempu di Malang adalah salah satu objek wisata alam yang menarik untuk dikunjungi. Pulau Sempu memiliki daya tarik utama nan memikat, yakni Laguna Segara Anakan, sebuah pantai di dalam pulau dengan hamparan pasir putih dan memiliki luas 4 ha. Air di laguna ini adalah air laut yang dipisahkan oleh bebatuan karang.<br>Kawasan wisata Pulau Sempu secara dominan ditumbuhi oleh pepohonan tropis seluas 877 ha, ini adalah sebuah cagar alam yang langsung dikelola oleh Balai Konservasi Sumber Daya Alam Jawa Timur (BBKSDA) dan Departemen Kehutanan Indonesia.<br>Dengan menikmati wisata di Pulau Sempu, Anda akan mendapatkan pengalaman petualangan yang berkesan di hati. Mengunjungi laguna di Pulau Sempu, lalu membentangkan kemah untuk bermalam di tepi laguna tersebut akan menghadirkan suasana intim di tengah hutan tropis yang lebat. Berenang di air laguna yang tenang serta bermain-main di tepiannya adalah kegiatan menarik yang tak terlewatkan.",
+    "gambar" : "https://",
+    "key_kota" : "https://dolan-jatim-cc1f1.firebaseio.com/tb_kota/Kabupaten Malang",
+    "lokasi" : "Desa Tambak Rejo, Kec. Sumbermanjing Wetan, Kabupaten Malng",
+    "nama_kota" : "Kabupaten Malang",
+    "nama_wisata" : "Pulau Sempu"
+  },
+    "Pantai Jumiang" : {
+        "detail" : "Pantai Jumiang merupakan salah satu pantai wisata di Pamekasan yang menyajikan berbagai keindahan alam. Menikmati sunrise dari pantai ini, memberi sensasi tersendiri bagi penikmat. tebing karang menyajikan pemandingan tersendiri. Debur ombak yang menerobos di sela-sela karang, seakan menciptakan sensasi aquatic yang indah. Seolah, waktu enggan beranjak takkala kita merejang di Jumiang.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Bangkalan",
+        "lokasi" : "Desa Tanjung, Kecamatan Pademawu, Kabupaten Pamekasan ini berjarak sekitar 12 Km Tenggara Kota Pamekasan",
+        "nama_kota" : "Kabupaten Bangkalan",
+        "nama_wisata" : "Pantai Jumiang"
+      },
+  "pantai kenjeran" : {
+    "detail" : "Pantai kenjeran merupakan salah satu tempat wisata di Surabaya. Pantai ini terletak di kecamatan Kenjeran, kota Surabaya, sekitar 9 km dari pusat kota. Nama kenjeran memang diambil dari nama wilayah setempat. Disini para pengunjung pantai dapat bersantai sambil menikmati keindahan alam dan deburan ombak. Pada hari libur Pantai ini selalu ramai pengunjung. Banyak wisatawan lokal khususnya dari Surabaya yang menghabiskan waktu liburan disini. Banyak juga wisatawan dari luar kota yang singgah untuk berwisata di Pantai Kenjeran Surabaya. <br/> Pantai Kenjeran juga menyediakan sarana bermain anak-anak, taman yang asri dan pemandangan bebatuan yang sangat memanjakan mata. Selain itu pengunjung juga bisa menikmati makanan khas Surabaya, seperti Lontong balap, lontong kupang, sate kerang, dan sebagainya. Disini pengunjung juga akan menemui berbagai ikan segar, ikan asin, kerupuk udang, dan berbagai cindera mata khas Surabaya yang cantik hasil dari Industri rumah tangga. Dipantai ini pengunjung juga dapat melihat megahnya Jembatan Suramadu.",
+    "gambar" : "https://",
+    "key_kota" : "AKota Surabaya",
+    "lokasi" : "Jl. Raya Pantai Lama No.12 <br/> 9 km dari pusat kota",
+    "nama_kota" : "Kota Surabaya",
+    "nama_wisata" : "Pantai Kenjeran"
+  },
+    "Pantai Cacalan" : {
+        "detail" : "Pantai dengan hamparan pasir hitam yang luas ini sangat cocok untuk liburan bersama keluarga. Selain menikmati pemandangan Pantai berpanorama Selat Bali, wisatawan juga dapat melakukan kegiatan seperti memancing dan mandi di Pantai. Pemandangan alamnya semakin indah dengan keberadaan pohon kelapa yang berjajar rapi di tepi Pantai.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Banyuwangi",
+        "lokasi" : "Klatak, Kalipuro, Klatak, Kec. Banyuwangi, Kabupaten Banyuwangi, Jawa Timur",
+        "nama_kota" : "Kabupaten Banyuwangi",
+        "nama_wisata" : "Pantai Cacalan"
+      },
+      "Pantai Grajagan" : {
+        "detail" : "Pantai ini memiliki pasir berwarna hitam dan luas. Disana terdapat gua dan bukit yang sangat indah, disaat berada di pantai Grajagan anda akan melihat hamparan pantai yang luas dengan ombak laut lepas serta bukit yang menjulang tinggi. Di pantai ini juga terdapat dua goa peninggalan tentara jepang pada perang dunia ke dua.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Banyuwangi",
+        "lokasi" : "Desa Grajagan, Kecamatan Purwoharjo",
+        "nama_kota" : "Kabupaten Banyuwangi",
+        "nama_wisata" : "Pantai Grajagan"
+      },
+      "Pantai Mustika" : {
+        "detail" : "Keistimewaan dari pantai mustika adalah pantainya masih bersih dan alami, selain itu panjang pantai hampir mencapai 2 KM membentuk setengah lingkaran dan ditengah tengahnya ada pulau mustaka. Rencananya pantai mustika akan dibagi menjadi dua bagian yaitu public dan private agar semua kalangan bisa menikmati. Hal ini dilakukan karena permintaan wisatawan menengah keatas yang menginginkan duduk santai dan ngopi dengan suasana yang tenang.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Banyuwangi",
+        "lokasi" : "Pesanggaran, Kabupaten Banyuwangi, Jawa Timur",
+        "nama_kota" : "Kabupaten Banyuwangi",
+        "nama_wisata" : "Pantai Mustika"
+      },
+      "Pantai Pancer" : {
+        "detail" : "Pancer banyak di kunjungi wisatawan yang datang dari luar daerah  untuk menikmati keindahan pantai dari  atas dermaga batu yang menjulang ke selatan dari pesisir pantai pancer, ada pula orang-orang yang datang ke sana untuk keperluan menyalurkan hobi memancing ikan di dermaga. Karena Pancer merupakan sebuah pelabuhan ikan.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Banyuwangi",
+        "lokasi" : "Desa Sumberagung, Kecamatan Pesanggaran, Banyuwangi selatan",
+        "nama_kota" : "Kabupaten Banyuwangi",
+        "nama_wisata" : "Pantai Pancer"
+      },
+      "Pantai Pancur" : {
+        "detail" : "Untuk bisa mencapai Pantai Pancur ini Anda bisa Setelah sampai di Resort Pancur, pengunjung bisa memarkirkan kendaraannya dan selanjutnya berjalan kaki menuruni tangga untuk tiba di pantainya. Pemandangan itu merupakan hasil dari kombinasi hamparan pasir pantai berwarna putih yang terbentang luas yang dihiasi oleh kumpulan lumut-lumut hijau yang tumbuh pada bebatuan yang terdapat di bibir Pantai Pancur.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Banyuwangi",
+        "lokasi" : "Jl. Brawijaya No. 20, Kalipait, Tegaldlimo, Kabupaten Banyuwangi, Jawa Timur",
+        "nama_kota" : "Kabupaten Banyuwangi",
+        "nama_wisata" : "Pantai Pancur"
+      },
+      "Pantai Parangkursi" : {
+        "detail" : "Keindahan pantai Parang Kursi diantaranya adalah air lautnya yang sangat jernih, pasirnya yang putih kemerah merahan, dan hijaunya lumut yang menempel di batu karang, serta karang karang besar yang tersusun secara rapi membuat pantai ini terlihat indah. Keasrian alamnya yang masih perawan membuat suasana menjadi tenang. Di iringi oleh desiran ombak pantai yang menyembur di atas batu karang.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Banyuwangi",
+        "lokasi" : "Pesanggaran, Banyuwangi, Kabupaten Banyuwangi, Jawa Timur",
+        "nama_kota" : "Kabupaten Banyuwangi",
+        "nama_wisata" : "Pantai Parangkursi"
+      },
+      "Pantai Plengkung" : {
+        "detail" : "Pantai Plengkung atau lebih dikenal dengan nama G-Land merupakan salah satu destinasi faforit wisatawan dari berbagai negara, terutama bagi mereka yang memiliki hobi berselancar. pantai ini disebut-sebut sebagai salah satu destinasi surfing terbaik di dunia karena gulungan ombaknya yang sangat besar. Pantai Plengkung dijuluki “The Seven Giant Waves Wonder” oleh peselancar asing karena memiliki 7 gulungan ombak yang memiliki ketinggian hingga 6 meter.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Banyuwangi",
+        "lokasi" : "Kalipait,Tegaldlimo,Kabupaten Banyuwangi,Jawa Timur",
+        "nama_kota" : "Kabupaten Banyuwangi",
+        "nama_wisata" : "Pantai Plengkung"
+      },
+      "Pantai Pulau Merah" : {
+        "detail" : "Yang membuat beda dari pantai ini adalah adanya sebuah pulau yang terletak di bibir pantai. Keberadaan pulau ini membuat pantai ini semkin eksotis dan menjadi asal mula nama Pulau Merah.Selain pemandangannya yang bagus, gulungan ombaknya yang lumayan besar juga menjadi daya tarik lainnya, tak heran jika banyak surfer pemula atau menengah berselancar di pantai ini. Karena itulah, pantai ini dijadikan tempat untuk menyelenggarakan event tahunan Internasional surfing competition yang diikuti oleh 20 surfer dari berbagai Negara.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Banyuwangi",
+        "lokasi" : "Sumberagung, Pesanggaran, Kabupaten Banyuwangi, Jawa Timur",
+        "nama_kota" : "Kabupaten Banyuwangi",
+        "nama_wisata" : "Pantai Pulau Merah"
+      },
+      "Pantai Rajegwesi" : {
+        "detail" : "Pantai Rajegwesi merupakan pantai yang dijadikan masyarakat sekitar sebagai tempat parkir kapal. Perahu yang ada disini digunakan para nelayan untuk mencari ikan dan alat transportasi untuk pergi ke teluk hijau. ombak di pantai ini sangat besar dikarenakan pantai ini termasuk di samudra hindia. dinamkan pantai rajegwesi dikarenakan di pantai ini terdapat sebuah batu karang besar. Dalam bahasa jawanya rajeg berarti tiang sedangkan wesi adalah besi jika digabung menjadi pagar besi.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Banyuwangi",
+        "lokasi" : "Sarongan, Kecamatan Pesanggaran, Sarongan, Banyuwangi, Kabupaten Banyuwangi, Jawa Timur",
+        "nama_kota" : "Kabupaten Banyuwangi",
+        "nama_wisata" : "Pantai Rajegwesi"
+      },
+      "Pantai Trianggulasi" : {
+        "detail" : "Trianggulasi merupakan salah satu pantai yang mempunyai formasi hutan pantai yang masih lengkap, didominasi pohon nyampung (Calophyllum inophyllum), bogem (Baringtonia asiatica) dan pandan laut (Pandanus tectorius). Kondisi pantainya berpasir putih bersih, biasanya pada bulan April – November digunakan oleh 4 jenis penyu yang ada di Alas Purwo untuk bertelur (penyu belimbing, sisik, abu-abu dan hijau). Panorama lain yang bisa dinikmati diantaranya adalah sunset dan pengematan satwa lainnya, sperti kera abu-abu, lutung, tupai, bajing, musang, rusa, kijang, babi hutan, dan biawak.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Banyuwangi",
+        "lokasi" : "Kendalrejo, Tegaldlimo, Kabupaten Banyuwangi, Jawa Timur",
+        "nama_kota" : "Kabupaten Banyuwangi",
+        "nama_wisata" : "Pantai Trianggulasi"
+      },
+      "Pantai Watudodol" : {
+        "detail" : "Tempat ini berjuluk Watudodol, Watu dalam bahasa jawa yang berarti batu dan dodol adalah jenang, jenang dodol merupakan jajanan khas yang terbuat dari ketan yang rasanya manis berbentuk persegi panjang. Pantai watu dodol memiliki banyak tempat menarik sepanjang pantai terdapat pedestrian untuk bersantai para pengunjung sambil menikmati keindahan pantai berlatar belakang pulau bali. Selain itu terdapat patung gandrung besar yang menjadi ikon Banyuwangi.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Banyuwangi",
+        "lokasi" : "Jl. Banyuwangi - Situbondo, Ketapang, Kalipuro, Kabupaten Banyuwangi, Jawa Timur",
+        "nama_kota" : "Kabupaten Banyuwangi",
+        "nama_wisata" : "Pantai Watudodol"
+      },
+      "Pantai Wedi Ireng" : {
+        "detail" : "Pantai Wedi Ireng merupakan replika kecil dari raja ampat di papua karena sejauh mata memandang akan terlihat tebing tebing yang memutari pulau, Disana juga terdapat pulau pulau kecil. Pantai ini masih tergolong asri, itu terlihat dari medan yang dilalui. Jika anda melalui jalur darat anda akan melewati medan yang sangat berat dan susah karena anda harus melewati hutan dengan jalan yang berlumpur. Anda juga harus mendaki sampai ke ujung bukit lalu menuruninya. Namun percayalah, perjalanan anda tidak akan sia sia jika sudah sampai ke di pantai. Air lautnya yang masih jernih dan berwarna biru serta bibir pantai yang dikelilingi pepohonan hijau memberikan suasana teduh.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Banyuwangi",
+        "lokasi" : "Dusun Pancer, Desa Sumber Agung, Pesanggaran, Kabupaten Banyuwangi, Jawa Timur",
+        "nama_kota" : "Kabupaten Banyuwangi",
+        "nama_wisata" : "Pantai Wedi Ireng"
+      },
+    "Pantai Delegan" : {
+        "detail" : "Pantai ini memiliki pasir putih dan ombak yang tenang. Tentunya kondisi ombak yang tenang cukup aman digunakan untuk berenang maupun bersantai. Di Pantai Delegan juga sering diadakan lomba perahu dan memancing saat memperingati hari kemerdekaan. Fasilitas yang disediakan di pantai ini relatif masih sederhana dan umumnya dikelola oleh warga setempat.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Gresik",
+        "lokasi" : "Desa Delegan, Kec. Panceng",
+        "nama_kota" : "Kabupaten Gresik",
+        "nama_wisata" : "Pantai Delegan"
+      },
+      "Pantai Mayangkara" : {
+        "detail" : "Pantai yang populer dengan sebutan lain Bayangkara ini juga terdapat penangkaran rusa. Anda akan berkenalan dengan rusa-rusa endemik yang hanya akan ditemui di Pulau Bawean. Nah, kalau sudah kenal Rusa yang punya blog, kamu harus kenalan juga dengan Rusa yanga da di pantai ini. Menurut sejarah, pantai ini adalah pantai yang ditemukan pertama kali oleh Siti Zaenab, istri dari Sunan Giri. Di sini pulalah, Siti Zaenab pertama kali berlabuh ketika menemukan Pulau Bawean. Tak perlu khawatir untuk akses ke pantai ini, karena roda empat bisa menjangkau hingga ke bibir pantai.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Gresik",
+        "lokasi" : "Desa Kepuh Teluk Dusun Teluk Emur Kecamatan Tambak",
+        "nama_kota" : "Kabupaten Gresik",
+        "nama_wisata" : "Pantai Mayangkara"
+      },
+      "Pantai Ria" : {
+        "detail" : "Dulunya pantai ini adalah tempat berlabuhnya para nelayan ketika menangkap ikan. Suasana gembira ria karena hasil ikan yang melimpah ruah menjadi latar belakang namanya. Bahkan pantai ini dulu sempat menjadi tempat pengolahan ikan dan rumput laut. Makanya tak heran hingga sekarang, tak jauh dari Pantai Ria Anda bisa melihat berbagai perahu nelayan dan aktifitasnya di sekitar pantai. Sudah tak berpasir putih tapi view di Pantai Ria masih sangat indah. Pantai Ria dengan bebatauannya yang indah.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Gresik",
+        "lokasi" : "Dekatagung, Sangkapura, Kabupaten Gresik, Jawa Timur",
+        "nama_kota" : "Kabupaten Gresik",
+        "nama_wisata" : "Pantai Ria"
+      },
+      "Pantai Sukaoneng" : {
+        "detail" : "Pantai indah dengan pasir putih menghampar yang oleh penduduk sekitar dijuluki pantai Sukaoneng. Nama sederhana yang diambil dari nama daerah tempat pantai ini berada, yakni desa Sekaoneng, Kecamatan Tambak, Kabupaten Gresik. Tidak mesti sesulit dua tempat wisata di Gresik sebelumnya, untuk bisa mengunjungi pantai ini Anda hanya perlu berjalan kaki sekitar 200 meteran saja dari jalan raya.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Gresik",
+        "lokasi" : "desa Sekaoneng, Kecamatan Tambak, Kabupaten Gresik",
+        "nama_kota" : "Kabupaten Gresik",
+        "nama_wisata" : "Pantai Sukaoneng"
+      },
+    "Pantai Bandealit" : {
+        "detail" : "Pantai ini menjadi salah satu tempat wisata favorit di Jember, terutama bagi mereka yang suka dengan olahraga air seperti body surfing. Anda bisa menyewa perlengkapan untuk body surfing yang telah disediakan pihak pengelola pantai. Ada banyak pilihan lain selain body surfing, anda bisa memilih berkano, menyusuri sungai dengan menggunakn speedboot, ataupun melihat banyak burung yang hiup di kawasan tersebut. Di sekitar pantai, disini ada Green House yang menjadi rumah bagi bunga anggrek.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Jember",
+        "lokasi" : "Andongrejo, Tempurejo, Kabupaten Jember",
+        "nama_kota" : "Kabupaten Jember",
+        "nama_wisata" : "Pantai Bandealit"
+      },
+      "Pantai Papuma" : {
+        "detail" : "Pantai Papuma memiliki pemandangan yang sangat indah. Perpaduan antara pasir putih serta batu karang yang menyebar di tepi pantai. Salah satu ciri khas dari Pantai Papuma adalah tujuh karang besar yang menjulang di pantai. Ukurannya yang besar membuat karang-karang ini menyerupai sebuah pulau. Ketujuh karang ini juga memiliki nama masing-masing. Di sini Anda bisa merasakan sensasi terpaan ombak dari atas karang. Pantai ini juga sering dijadikan sebagai lokasi foto prewedding ataupun landscape oleh para fotografer dari berbagai kota.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Jember",
+        "lokasi" : "Desa Lojejer, Kecamatan Wuluhan, Kabupaten Jember",
+        "nama_kota" : "Kabupaten Jember",
+        "nama_wisata" : "Pantai Papuma"
+      },
+      "Pantai Paseban" : {
+        "detail" : "Pantai ini memiliki pasir purih yang cantik. Air lautnya yang jernih serta pemandangan sekitar yang mempesona membuat anda akan merasakan kedamaian. Disini juga menjadi tempat bermain air atau mandi-mandi yang tepat, karena ombaknya tidak besar, bahkan relatif tenang sekali. Oleh karena itu, banyak anak-anak suka bermain di sini karena ombaknya aman untuk berenang.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Jember",
+        "lokasi" : "Paseban, Kencong, Kabupaten Jember",
+        "nama_kota" : "Kabupaten Jember",
+        "nama_wisata" : "Pantai Paseban"
+      },
+      "Pantai Payangan" : {
+        "detail" : "Pantai ini terutama sangat cocok dikunjungi oleh kamu yang sering mengeksplor tempat-tempat baru. Pantai Payangan merupakan sebuah pantai yang cukup unik. Di pantai ini terdapat bukit-bukit yang cukup tinggi, mengingatkan kita pada pada pantai Mawun di Lombok. Banyak nelayan yang melakukan aktivitas di pantai yang membuat kunjunganmu ke pantai ini akan semakin bermaknda ketika menyaksikan bagaimana para nelayan beraktivitas.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Jember",
+        "lokasi" : "Sumberrejo, Ambulu, Kabupaten Jember",
+        "nama_kota" : "Kabupaten Jember",
+        "nama_wisata" : "Pantai Payangan"
+      },
+      "Pantai Puger" : {
+        "detail" : "Pantai Puger Jember adalah salah satu tempat wisata di jember yang paling ramai di kunjungi, terutama segmen anak muda yang paling menyukai pantai ini untuk tempat hiburan yang menarik. Pantai Puger adalah tempat yang cocok bagi mereka yang hobi memancing. Di Pantai Puger terdapat tempat pelelangan ikan, di sini menjual ikan segar. Selain wisata yang di tawarkan Pantai Puger, terdapat juga Cagar Alam Puger Watangan yang lokasinya berada di sekitar kawasan Pantai Puger.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Jember",
+        "lokasi" : "Jalan Pelabuhan, Puger Wetan, Kabupaten Jember",
+        "nama_kota" : "Kabupaten Jember",
+        "nama_wisata" : "Pantai Puger"
+      },
+      "Pantai Rowo Cangak" : {
+        "detail" : "Pantai Rowo Cangak adalah salah satu dari sekian pantai yang belum dikembangkan secara optimal untuk berwisata, dari segi sarana dan fasilitas jelas kurang memadai, namun kita bisa menikmati susana pantai yang sesungguhnya dan benar benar merasakan dekat dengan alam. Disini, sepanjang garis pantai terlihat bersih tanpa sampah dan hanya suara ombak yang kita dengar lengkap dengan suasana eksotis khas pantai selatan.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Jember",
+        "lokasi" : "Sabrang, Kabupaten Jember",
+        "nama_kota" : "Kabupaten Jember",
+        "nama_wisata" : "Pantai Rowo Cangak"
+      },
+      "Pantai Watu Ulo" : {
+        "detail" : "Di sekitar pantai ini anda bisa menemukan penjual aneka aksesoris yang terbuat dari dasar laut. Di pantai ini selalu diadakan acara Pekan Raya di setiap tahunya tepatnya pada tanggal 1-10 syawal. Pemandangan di sekitar pantai ini sangat mempesona, anda akan betah berlama-lama di pantai ini.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Jember",
+        "lokasi" : "Sumberrejo, Ambulu, Kabupaten Jember, Jawa Timur",
+        "nama_kota" : "Kabupaten Jember",
+        "nama_wisata" : "Pantai Watu Ulo"
+      },
+    "Pantai Brondong" : {
+        "detail" : "Pantai Brondong wisatawan tidak hanya dapat menikmati pesona alam pantai yang dihiasi dengan aneka kapal tradisional, di sini Anda juga berkesempatan untuk membeli ikan dengan harga yang lebih murah, karena di Pantai Brondong terdapat Tempat Pelelangan Ikan.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Lamongan",
+        "lokasi" : "Desa Brondong, Kecamatan Brondong, Lamongan",
+        "nama_kota" : "Kabupaten Lamongan",
+        "nama_wisata" : " Pantai Brondong"
+      },
+    "Pantai Boom" : {
+        "detail" : "Saat memasuki kawasan pintu masuk Pantai Boom, Anda akan menemukan pintu masuk pantai yang berbentuk seperti layar perahu yang dihiasi juga dengan hamparan taman. Di taman bagian depan ini terdapat dua bangunan berbentuk pendapa dengan prasasti berada di dinding bangunan tentang sejarah Pantai Boom Tuban di Masa Lampau yang mempunyai peranan penting sebagai jalur pelayaran niaga dan pelabuhan pada masa kerajaan Airlangga, Singasari , Majapahit dan masa awal syiar Islam di Tanah Jawa. Ketika Anda masuk pintu gerbang utama untuk membeli karcis akan disuguhi karya arsitektur luar biasa berupa relief tentara tar tar disebelah kiri gerbang dan relief ronggolawe disebelah kanan gerbang. Baru dipintu gerbang saja, sudah banyak hal menarik yang disuguhkan oleh tempat wisata ini. Tidak jauh dari pintu masuk terdapat sumber air tawar yang mengalir terus menerus. Konon sumur tua merupakan peninggalan belanda, tapi ada juga yang mengatakan ini merupakan peninggalan wali. Di dalam kawasan pantai, Anda akan menjumpai taman-taman asri yang dihiasi oleh pohon-pohon yang rindang. Disini Anda bisa melakukan jogging atau berjalan-jalan sekedar menikmati suasana pantai. Di sekitar pantai terdapat jalan yang menjorok ke laut. Jalan ini bisa Anda gunakan untuk menikmati panorama laut. Disini juga terdapat beberapa gazebo yang bisa Anda gunakan untuk melihat pemandangan saat matahari terbit ataupun terbenam. Sangat menakjubkan.",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tuban%2FPantai%20Boom.jpg?alt=media&token=be75bf66-2c2b-4021-9068-e26ee73a0074",
+        "key_kota" : "Kabupaten Tuban",
+        "lokasi" : "Semenanjung Boom, Kutorejo, Kec. Tuban, Kabupaten Tuban",
+        "nama_kota" : "Kabupaten Tuban",
+        "nama_wisata" : "Pantai Boom"
+      },
+      "Pantai Cemara" : {
+        "detail" : "Suasana di tepi pantai yang terlindungi oleh rindangnya pohon cemara, membuat setiap pengunjung merasa nyaman untuk bersantai menikmati panorama alam pantai di bawah pohon. Obyek wisata di Tuban ini berlokasi di desa Jenu, kecamartan Jenu, kabupaten Tuban, berjarak kurang lebih 8 km dari pusat kota. Pantai Cemara & Wisata Mangrove tidak menarik biaya masuk untuk semua wisatawan yang berkunjung, kecuali jika mereka ingin memanfaatkan fasilitas listrik dan air bersih maka akan dikenakan biaya sekedarnya. Luas obyek wisata ini sekitar 56 hektar serta didominasi oleh tanaman bakau (mangrove) dan pohon cemara laut. Beberapa fasilitas yang tersedia antara lain areal parkir, gazebo, aula, kamar mandi, dan sebagainya. Pantai Cemara & Wisata Mangrove ini dikelola oleh Bapak Ali Mansur.",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tuban%2FPantai%20Cemara.jpg?alt=media&token=9adb19f7-e16f-421b-8669-58e8af1d9ff0",
+        "key_kota" : "Kabupaten Tuban",
+        "lokasi" : "Sugihwaras, Jenu, Kabupaten Tuban",
+        "nama_kota" : "Kabupaten Tuban",
+        "nama_wisata" : "Pantai Cemara"
+      },
+      "Pantai Kelapa Panyuran" : {
+        "detail" : "Seperti namanya, pantai ini menyuguhkan panorama indah pepohonan kelapa yang nyiur melambai di sepanjang pantai. Pantai ini berada di desa Panyuran, Kecamatan Palang, dengan jarak hanya 6 km dari pusat kota. Tapi karena posisi pantai yang ada disebuah perkampungan, jadi terkesan pantai ini tersembunyi. Di sini Anda juga akan menemukan banyaknya penduduk lokal yang berprofesi sebagai nelayan, dengan berbagai aktifitasnya. Pantai ini sangat indah, teduh dan masih sangat alami. Pantai ini sering dijadikan tempat untuk berkemah juga. Jadi jika Anda ingin merasakan beach camp, bisa mencobanya di pantai ini.",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tuban%2FPantai%20Kelapa.jpg?alt=media&token=6a01c062-77db-4d78-8639-b8c08be53de0",
+        "key_kota" : "Kabupaten Tuban",
+        "lokasi" : "Desa Panyuran, Kecamatan Palang, Tuban",
+        "nama_kota" : "Kabupaten Tuban",
+        "nama_wisata" : "Pantai Kelapa Panyuran"
+      },
+      "Pantai Remen" : {
+        "detail" : "Banyak pantai di kabupaten Tuban yang menjadi destinasi menarik untuk dikunjungi. Pantai ini terletak di desa Remen kecamatan Jenu. Pantai Remen menyuguhkan pemandangan pantai yang menakjubkan dengan pasir berwarna putih cerah. Disini Anda juga akan menemukan  danau besar dengan deretan pohon cemara laut yang seakan menyambut setiap pengunjung yang datang. Pantai pasir putih ini ternyata masih baru lho. Pantai ini resmi dibuka baru pada 22 Pebruari 2015 dan dikelolah oleh pemerintah desa Remen. Terdapat banyak sekali tenda-tenda pedagang berjejer di sekitar pantai, terlihat sederhana yang tertata rapi dan bersih. Pantai ini sangat terjaga kebersihannya, bahkan ada banyak tong sampah disepanjang pantainya. Kalo mampir kesini jangan dikotori yah.",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tuban%2FPantai%20Remen.jpg?alt=media&token=d43071d4-88e3-42aa-be11-4babc70baeeb",
+        "key_kota" : "Kabupaten Tuban",
+        "lokasi" : "Jenu, Remen, Jenu, Kabupaten Tuban",
+        "nama_kota" : "Kabupaten Tuban",
+        "nama_wisata" : "Pantai Remen"
+      },
+      "Pantai Sowan" : {
+        "detail" : "Pantai Sowan berada di tepi jalan Pantura, tepatnya di dusun Sowan, desa Bogorejo, kecamatan Bancar, kapupaten Tuban, Jawa Timur. Berjarak kurang lebih 40 km dari pusat kota. Ketika tiba di pintu masuk tertulis Wana Wisata Sowan, dan setiap pengunjung diwajibkan untuk membeli tiket sebesar Rp 3.000/ orang. Obyek wisata pantai ini memiliki luas kurang lebih 32 hektar. Di kawasan wisata Sowan wisatawan tidak hanya bisa menikmati panorama alam pantai, tetapi juga pesona hijaunya hutan yang tampak asri. Aneka tanaman yang terdapat di hutan ini antara lain waru, randu, jati, klampis, akasia, mahoni, dan lain-lain. Sedangkan beberapa fauna yang dapat dijumpai di pantai ini antara lain burung kutilang, burung perkutut, burung cendet, burung jalak, burung prenjak, biawak, musang, dan sebagainya. Disamping itu, berbagai fasilitas penunjang lain yang juga tersedia di sini adalah penginapan, warung makan, area bermain, mushola, dan kamar mandi.",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tuban%2FPantai%20Sowan.jpg?alt=media&token=fbe8aaa5-2f56-4c9c-a4d3-5dcd958cf242",
+        "key_kota" : "Kabupaten Tuban",
+        "lokasi" : "Bogorejo, Bancar, Kabupaten Tuban",
+        "nama_kota" : "Kabupaten Tuban",
+        "nama_wisata" : "Pantai Sowan"
+      },
+    "Pantai Brumbun" : {
+        "detail" : "Pantai Brumbun merupakan sebuah pantai berpasir abu-abu cenderung hitam yang berada di desa Ngrejo, kecamatan Tanggunggunung. Sepintas, pantai ini memang biasa saja dan tidak terlalu istimewa. Namun, bukan berarti pantai ini tak menarik untuk dikunjungi. Area yang ada di Pantai Brumbun ini cukup luas dan merupakan tempat yang asik untuk bermain. Ombak di pantai juga cukup kalem sehingga kita bisa bermain di sana dengan lebih leluasa. Dari pusat kota Tulungagung pantai ini berjarak sekitar 22.5 km dan harus melewati medan yang cukup sulit",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tulungagung%2FPantai%20Brumbun.jpg?alt=media&token=b146787b-e004-4e97-b64c-0e111e97038f",
+        "key_kota" : "Kabupaten Tulungagung",
+        "lokasi" : "Ngrejo, Tanggung Gunung, Kabupaten Tulungagung",
+        "nama_kota" : "Kabupaten Tulungagung",
+        "nama_wisata" : "Pantai Brumbun"
+      },
+      "Pantai Coro" : {
+        "detail" : "Pantai Coro juga merupakan tempat wisata di Tulungagung yang menarik untuk dikunjungi. Pantai berpasir putih ini berlokasi di Kecamatan Besuki. Keunggulan pantai ini adalah letaknya yang tidak begitu jauh dari pusat kabupaten. Memang pantai ini tak terlalu luas tetapi keindahan pantainya tidak kalah menariknya dengan pantai lainnya di Jawa Timur. Untuk menuju ke lokasi Pantai Coro Anda bisa menuju ke Pantai Popoh kemudian menuju ke arah Reco Sewu, setelah parkir kendaraan di Reco Sewu, dilanjutkan denagn berjalan kaki beberapa kilometer.",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tulungagung%2FPantai%20Coro.jpg?alt=media&token=c7b7a6c1-607b-43ab-81d3-5dd8e1210540",
+        "key_kota" : "Kabupaten Tulungagung",
+        "lokasi" : "Reco Sewu, Besole, Besuki, Kabupaten Tulungagung",
+        "nama_kota" : "Kabupaten Tulungagung",
+        "nama_wisata" : "Pantai Coro"
+      },
+      "Pantai Kedung Tumpang" : {
+        "detail" : "Inilah pantai yang sedang banyak dibicarakan: Kedung Tumpang. Kecantikan pantai ini bukan terletak pada pasir putihnya yang menawan. Malahan, di pantai ini kita tidak akan menjumpai pasir sama sekali. Pantai Kedung Tumpang merupakan pantai tebing karang. Yang membuat pantai ini menarik adalah banyaknya lubang-lubang alami pada karang yang membentuk laguna yang benar-benar cantik. Air di laguna-laguna tersebut terlihat begitu biru dan jernih sehingga siapapun yang datang ke pantai ini pasti tak tahan untuk segera berenang di dalamnya",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tulungagung%2FPantai%20Kedung%20Tumpang.jpg?alt=media&token=d2ccd153-9015-43ab-b963-2d5549e7d4d0",
+        "key_kota" : "Kabupaten Tulungagung",
+        "lokasi" : " Pucanglaban, Pucang Laban, Kabupaten Tulungagung,",
+        "nama_kota" : "Kabupaten Tulungagung",
+        "nama_wisata" : "Pantai Kedung Tumpang"
+      },
+      "Pantai Klatak" : {
+        "detail" : "Nah, bagi Anda yang lebih senang dengan pantai yang memiliki pasir gelap, Pantai Klatak bisa menjadi pilihan bagus. Obyek wisata pantai di Tulungagung ini beralamat di Desa Keboireng, Kecamatan Besuki. Di pantai ini, Anda akan menyaksikan batu-batu kali yang menghiasi sekeliling pantai Klatak. Bila Anda berangkat dari Kota Tulungagung menggunakan kendaraan bermotor waktu tempuh perjalanan sekitar 1 setengah jam untuk bisa sampai di lokasi pantai ini. Kegiatan favorit di kawasan wisata pantai ini adalah berenang, memancing dan bersantai.",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tulungagung%2FPantai%20Klatak.jpg?alt=media&token=5555d899-b9a2-4ca6-9dcd-c961f203522f",
+        "key_kota" : "Kabupaten Tulungagung",
+        "lokasi" : "Jalan Pantai Waru Doyong, Klatak, Keboireng, Besuki, Kabupaten Tulungagung",
+        "nama_kota" : "Kabupaten Tulungagung",
+        "nama_wisata" : "Pantai Klatak"
+      },
+      "Pantai Lumbung" : {
+        "detail" : "Setelah puas menikmati Pantai Molang anda bisa melanjutkan perjalanan anda menuju ke Pantai Lumbung yang masih berada di Kecamatan Pucanglabang dan berada tidak jauh dari Pantai Molang. Menurut informasi pantai molang ini hanya dikenal oleh warga sekitar dan kalangan memancing dan untuk turun ke lokasi juga sangat berbahaya. Pantai Lumbung berlokasi di Desa Pucanglaban, Kec. Pucanglaban, Tulungagung. Lokasi pantai ini tidak jauh dari Pantai Molang, sehingga untuk menuju ke Pantai ini anda cukup mengikuti jalur ke Pantai Molang kemudian setibanya di kawasan pabrik atau tambak udang, Anda bisa bertanya ke warga sekitar untuk jalur ke Pantai Lumbung",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tulungagung%2FPantai%20Lumbung.jpg?alt=media&token=784909f0-0cf5-428f-995c-7a2d32dc6b84",
+        "key_kota" : "Kabupaten Tulungagung",
+        "lokasi" : "Pucang Laban, Kabupaten Tulungagung",
+        "nama_kota" : "Kabupaten Tulungagung",
+        "nama_wisata" : "Pantai Lumbung"
+      },
+      "Pantai Molang" : {
+        "detail" : "Pantai indah di Tulungagung yang satu ini berada di Kecamatan Pucanglaban. Lokasinya cukup strategis karena berada di perbatasan antara Blitar dan Tulungagung. Deburan ombaknya yang menawan ditambah dengan warna pasir putih menggoda akan membuat Anda betah berlama-lama di sini. Akses jalan menuju ke pantai Molang ini cukup mudah. Sesampainya di Pucanglaban, Anda akan banyak menjumpai papan petunjuk yang mengantar Anda ke Pantai Molang.",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tulungagung%2FPantai%20Molang.jpg?alt=media&token=dfc345fa-401d-42e1-9633-ef0c8f63ee4f",
+        "key_kota" : "Kabupaten Tulungagung",
+        "lokasi" : "Pucanglaban, Pucang Laban, Kabupaten Tulungagung",
+        "nama_kota" : "Kabupaten Tulungagung",
+        "nama_wisata" : "Pantai Molang"
+      },
+      "Pantai Ngalur" : {
+        "detail" : "Pantai Ngalur adalah tetangga dekat dari Pantai Sanggar sehingga keduanya memiliki suasana dan pemandangan yang tidak jauh berbeda. Kedua pantai ini sama-sama berada di desa Jengglungharjo, kecamatan Tanggunggunung. Pasir putih serta air laut yang masih sangat bersih akan menyambut kedatangan kita di Pantai Ngalur dan juga Sanggar. Pantai Ngalur dan Sanggar ini akan sangat tepat untuk dijadikan lokasi camping karna suasananya yang masih cukup natural",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tulungagung%2FPantai%20Ngalur.jpg?alt=media&token=b11735ae-c1d6-4491-9c52-8ec8e02096e3",
+        "key_kota" : "Kabupaten Tulungagung",
+        "lokasi" : "Jengglungharjo, Tanggung Gunung, Jengglungharjo, Kabupaten Tulungagung",
+        "nama_kota" : "Kabupaten Tulungagung",
+        "nama_wisata" : "Pantai Ngalur"
+      },
+      "Pantai Pathok Gebang" : {
+        "detail" : "Dari beberapa pilihan tempat wisata yang menarik untuk dikunjungi, Pantai Pathok Gebang dapat menjadi pilihan untuk mengisi waktu liburan Anda. Tetapi pantai ini khusus bagi pencinta petualangan. Hal ini karena untuk menuju ke lokasi Pantai Pathok Gebang ini lumayan sulit karena pengunjung harus menaiki bukit dan menyusuri hutan yang masih alami sekitar 30 - 40 menit dengan cara berjalan kaki. Pantai ini mempunyai ciri khas berupa tebing atau karang yang cukup besar dengan deburan airnya yang cukup tinggi bila diterjang ombak.",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tulungagung%2FPantai%20Phatok%20Gebang.jpg?alt=media&token=3dc8685b-239a-470a-8d16-c79d871757db",
+        "key_kota" : "Kabupaten Tulungagung",
+        "lokasi" : "Jengglungharjo, Tanggung Gunung, Kabupaten Tulungagung",
+        "nama_kota" : "Kabupaten Tulungagung",
+        "nama_wisata" : "Pantai Pathok Gebang"
+      },
+      "Pantai Popoh" : {
+        "detail" : "Pantai Popoh merupakan salah satu pantai favorit di Kabupaten Tulungagung. Objek wisata ini berada di selatan kota berjarak sekitar 30 km yakni tepatnya di Kecamatan Besuki. Letaknya yang berada di kawasan teluk, membuat ombak di tepi pantai ini tidak begitu besar. Pemandangan alam pantainya sangat eksotis dimana akan terdapat tebing-tebing karang yang terjal di sekitar pantai. Selain bisa bersantai atau bermain air, Anda juga bisa menyewa perahu nelayan untuk berkeliling di sekitar kawasan teluk. Tempat wisata di Tulungagung ini merupakan salah satu tempat yang menyenangkan untuk menghabiskan waktu liburan bersama keluarga tercinta.",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tulungagung%2FPantai%20Popoh.jpg?alt=media&token=bcc0a84a-e8c4-4207-82ab-55253b33a3b9",
+        "key_kota" : "Kabupaten Tulungagung",
+        "lokasi" : "Jalan Raya Pantai Prigi, Watulimo, Besole, Besuki, Kabupaten Tulungagung",
+        "nama_kota" : "Kabupaten Tulungagung",
+        "nama_wisata" : "Pantai Popoh"
+      },
+      "Pantai Sanggar" : {
+        "detail" : "Pantai Sanggar memiliki pesona yang membuat kita terasa nyaman berada di sana. Dengan pasir putih serta air lautnya yang terlihat sangat bersih, panti ini menjadi salah satu pantai paling cantik di Tulungagung. Meski memang, untuk bisa sampai ke pantai ini membutuhkan sedikit perjuangan karna lokasinya yang tidak cukup mudah diakses. Pantai Sanggar berada di desa Jengglungharjo, kecamatan Tanggunggunung. Tidak banyak pengunjung yang datang ke pantai ini sehingga kita bisa merasakan suasana yang benar-benar natural. Untuk yang gemar menjelajah, Pantai Sanggar bisa menjadi tujuan yang sangat pas untuk melaksanakan hobby tersebut",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tulungagung%2FPantai%20Sanggar.jpg?alt=media&token=337441cf-c61d-4d62-abd7-e73069227b9f",
+        "key_kota" : "Kabupaten Tulungagung",
+        "lokasi" : "Jengglungharjo, Tanggung Gunung, Kabupaten Tulungagung",
+        "nama_kota" : "Kabupaten Tulungagung",
+        "nama_wisata" : "Pantai Sanggar"
+      },
+      "Pantai Sidem" : {
+        "detail" : "Pantai Sidem merupakan salah satu pantai yang berada di Tulungagung, atau lebih tepatnya merupakan salah satu pantai di Kecamatan Besuki, Kabupaten Tulungagung Jawa Timur. Keberadaan Pantai ini sungguh menawan dengan suguhan keindahan hamparan alam yang menarik. Begitu mempesona dan penuh kalimat tanya di benak kita ketika kita melihat jajaran pemandangan alam yang indah. Ada aneka macam spot yang bisa anda nikmati sembari anda meneruskan perjalanan ke Pantai Sidem.",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tulungagung%2FPantai%20Sidem.jpg?alt=media&token=01eed434-0916-49be-ba8d-3730e1f21800",
+        "key_kota" : "Kabupaten Tulungagung",
+        "lokasi" : "Besole, Besuki, Kabupaten Tulungagung",
+        "nama_kota" : "Kabupaten Tulungagung",
+        "nama_wisata" : "Pantai Sidem"
+      },
+      "Pantai Sine" : {
+        "detail" : "Berjarak sekitar 35 kilometer di sebelah selatan Kota Tulungagung, Pantai Sine merupakan sebuah pantai berpasir putih kecoklatan dengan ombak yang terbilang cukup besar. Objek wisata di Tulungagung ini berlokasi di Desa Kalibatur, Kec. Kalidawir, Kabupaten Tulungagung. Selain bisa bermain air dan menikmati pesona alam pantainya, Anda juga bisa menyaksikan aktivitas nelayan setempat yang akan berangkat ke laut. Pantai Sine Tulungagung ini juga dikenal dengan nama Pantai Matahari Terbit.",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tulungagung%2FPantai%20Sine.jpg?alt=media&token=8eec2485-fe56-4603-a2bb-cdc1ecb9dc08",
+        "key_kota" : "Kabupaten Tulungagung",
+        "lokasi" : "Kalibatur, Kalidawir, Kabupaten Tulungagung",
+        "nama_kota" : "Kabupaten Tulungagung",
+        "nama_wisata" : "Pantai Sine"
+      },
+      "Ranukumbolo Wonorejo" : {
+        "detail" : "Salah satu objek wisata baru di sekitar Waduk Wonorejo ini adalah Ranukumbolo yaitu yang bertempat di sebalahnya Waduk Wonorejo Tulungagung. Tempat ini biasa di sebut dengan Ranukumbolo Wonorejo Tulungagung. Rute menuju Ranugumbolo Wonorejo adalah apabila dari Surabaya mengarah ke Tulungagung, ikuti rambu yang mengarah ke Wonorejo. Setelah melewati pintu masuk  Wonorejo ikuti jalan sampai menemukan SD kemudian ambil arah kanan terus sampai menemukan jalan jalan bercabang pertama, ambil arah kanan lagi (apabila lurus ini mengarah ke Waduk Wonorejo). Ikuti jalan saja sampai pada parkiran Ranugumbolo. Di tempat ini kita juga bisa menikmati pemandangan indahnya Waduk Wonorejo karena tempatnya yang bersebelahan. Di sini kalian dapat berselfi-selfi sampai puas.",
+        "gambar" : "https://firebasestorage.googleapis.com/v0/b/dolan-jatim-cc1f1.appspot.com/o/Kabupaten%20Tulungagung%2FDanau%20Ranukumbolo%20Wonorejo.jpg?alt=media&token=7593df0c-fa3d-4ab3-8a5f-3c2abb80a67b",
+        "key_kota" : "Kabupaten Tulungagung",
+        "lokasi" : "Pagerwojo, Kabupaten Tulungagung",
+        "nama_kota" : "Kabupaten Tulungagung",
+        "nama_wisata" : "Ranukumbolo Wonorejo"
+      },
+    "Pantai Basmalah" : {
+        "detail" : "Pantai Basmalah, pantai yang berada sisi timur Madura ini sebenarnya merupakan kawasan pantai yang menarik untuk dikunjungi, betapa tidak, selain tempatnya yang berpasir putih dan menjorok ke laut. Pantai basmalah juga menyajikan view pemandangan menarik, yakni pengunjung dapat melihat jembatan Suramadu secara utuh.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Bangkalan",
+        "lokasi" : "Desa Kwanyar Barat, Kecamatan Kwanyar, Kwanyar Bar., Bangkalan, Kabupaten Bangkalan, Jawa Timur 69163",
+        "nama_kota" : "Kabupaten Bangkalan",
+        "nama_wisata" : "Pantai Basmalah"
+      },
+      "Pantai Batu Kerbuy" : {
+        "detail" : "Dengan air pantainya yang biru dan bersih menarik Anda untuk melakukan berbagai kegiatan seperti, berenang, menyelam, memancing, dan sekedar berkeliling dengan menggunakan perahu motor yang terdapat dibibir pantai. Suasana alam yag terdapat akan membuat Anda mempesona dan merasakan kenyamanan yang tidak akan terlupakan.",
+        "gambar" : "https",
+        "key_kota" : "Kabupaten Bangkalan",
+        "lokasi" : "Jalan Raya Pasean, Pasean, Pamekasan, Kabupaten Pamekasan, Jawa Timur",
+        "nama_kota" : "Kabupaten Bangkalan",
+        "nama_wisata" : "Pantai Batu Kerbuy"
+      }
+}

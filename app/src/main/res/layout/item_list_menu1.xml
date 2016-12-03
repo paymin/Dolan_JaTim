@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:weightSum="1">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ima"
+            android:scaleType="centerCrop"
+            android:src="@color/cardview_light_background"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/imageViewmenu1" />
+
+        <ImageView
+                android:id="@+id/imageViewmenu1"
+                android:layout_width="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/a"
+                android:layout_height="100dp" />
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textViewJudulmenu1"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        tools:text="Judul"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:paddingTop="3dp"
+        android:textSize="14sp"
+        android:background="@color/cardview_light_background" />
+
+
+</LinearLayout>

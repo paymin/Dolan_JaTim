@@ -53,11 +53,15 @@ public class MainActivity extends AppCompatActivity
         mBlogListw.setHasFixedSize(true);
         mBlogListw.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL, false));
 
+        RecyclerView mBlogList1 = (RecyclerView) findViewById(R.id.recyclerviewmenu1);
+        mBlogList1.setHasFixedSize(true);
+        mBlogList1.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL, false));
+
         /*mBlogListv = (RecyclerView) findViewById(R.id.recyclerviewmenua);
         mBlogListv.setHasFixedSize(true);
         mBlogListv.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL, false));*/
 
-        findViewById(R.id.tvViewMore).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.textView4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivityForResult(new Intent(MainActivity.this, ListKotaActivity.class), REQUEST_CODE);
@@ -99,6 +103,28 @@ public class MainActivity extends AppCompatActivity
             }
         };
         mBlogListw.setAdapter(firebaseRecyclerAdapter);
+
+        FirebaseRecyclerAdapter<Blog, BlogViewHolder1> firebaseRecyclerAdapter1 = new FirebaseRecyclerAdapter<Blog, BlogViewHolder1>(
+                Blog.class, R.layout.item_list_menu1, BlogViewHolder1.class, Ref) {
+            @Override
+            protected void populateViewHolder(BlogViewHolder1 viewHolder, Blog model, int position) {
+
+                final String post_key = getRef(position).getKey();
+
+                viewHolder.setTitle(model.getJudul());
+                viewHolder.setImage(getApplicationContext(), model.getLogo());
+
+                viewHolder.mview.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent singleBlogIntent = new Intent(MainActivity.this, TesActivity.class);
+                        singleBlogIntent.putExtra("blog_id", post_key);
+                        startActivity(singleBlogIntent);
+                    }
+                });
+            }
+        };
+        mBlogList1.setAdapter(firebaseRecyclerAdapter1);
 
     }
 
@@ -251,23 +277,29 @@ public class MainActivity extends AppCompatActivity
 
     }
 
-    /*public static class BlogViewHoldera extends RecyclerView.ViewHolder {
+    public static class BlogViewHolder1 extends RecyclerView.ViewHolder {
         View mview;
 
-        public BlogViewHoldera(View itemView) {
+        public BlogViewHolder1(View itemView) {
             super(itemView);
             mview = itemView;
         }
 
         public void setTitle(String title) {
-            TextView post_title = (TextView) mview.findViewById(R.id.textViewJudulmenua);
+            TextView post_title = (TextView) mview.findViewById(R.id.textViewJudulmenu1);
             post_title.setText(title);
         }
 
         public void setImage(Context ctx, String image) {
-            ImageView post_image = (ImageView) mview.findViewById(R.id.imageViewmenua);
-            Picasso.with(ctx).load(image).into(post_image);
+            ImageView post_image = (ImageView) mview.findViewById(R.id.imageViewmenu1);
+            Transformation transformation = new RoundedTransformationBuilder()
+                    .borderColor(Color.BLACK)
+                    .borderWidthDp(0)
+                    .cornerRadiusDp(40)
+                    .oval(false)
+                    .build();
+            Picasso.with(ctx).load(image).transform(transformation).into(post_image);
         }
 
-    }*/
+    }
 }
