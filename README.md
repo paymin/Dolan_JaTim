@@ -13,9 +13,11 @@ Dolan JaTim merupakan aplikasi yang kami buat untuk memenuhi Tugas Akhir Pemrogr
 <br>
 
 ### Video Aplikasi
-
+[![Review Dolan JaTim](https://s23.postimg.org/pq31evxbv/2016_12_07_22_19_57_Review_Dolan_Ja_Tim_You_Tube.png)](https://www.youtube.com/watch?v=7OMfwgmqC9c)
+<br>
 ### Link Aplikasi
-
+https://drive.google.com/file/d/0B2xxvwzoJrlpUEpDYXV5OHR1dFU/view?usp=sharing
+<br>
 ### Identitas Anggota
 Nama        : Armaningtyas Utami <br>
 Kelas       : XI RPL 1 <br>
